@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ClearanceTeeTimes.Mobile.Pages.InitialAuthentication.WelcomePage">
+  <Label Text="{Binding MainText}" VerticalOptions="Center" HorizontalOptions="Center" />
+  <ContentPage.Padding>
+        <OnPlatform x:TypeArguments="Thickness"
+                    iOS="20, 40, 20, 20"
+                    Android="20, 20, 20, 20" />
+     </ContentPage.Padding>
+  <ContentPage.Content>
+    <Grid VerticalOptions="Fill"
+          HorizontalOptions="Fill"
+          Padding="24">
+      <StackLayout x:Name="label1" Padding="24,0" Scale="0" VerticalOptions="Center">
+				<Label StyleId="label1" Text="Let's get you registered!"
+					FontSize="Medium" XAlign="Center" />
+			</StackLayout>
+      <StackLayout x:Name="label2" Grid.Row="1" Padding="24,0" Scale="0" VerticalOptions="Center">
+				<Label StyleId="label2" Text="First thing's first, you must log in." FontSize="Medium" XAlign="Center" />
+			</StackLayout>
+  
+  </Grid>
+  </ContentPage.Content>
+
+</ContentPage>
