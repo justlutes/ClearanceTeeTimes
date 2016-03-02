@@ -17,16 +17,16 @@ namespace ClearanceTeeTimes.Mobile.Pages.InitialAuthentication {
     public partial class WelcomePage : global::Xamarin.Forms.ContentPage {
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
-        private global::Xamarin.Forms.StackLayout label1;
+        private global::Xamarin.Forms.Entry phoneNumberText;
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
-        private global::Xamarin.Forms.StackLayout label2;
+        private global::Xamarin.Forms.Button loginButton;
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {
             this.LoadFromXaml(typeof(WelcomePage));
-            label1 = this.FindByName<global::Xamarin.Forms.StackLayout>("label1");
-            label2 = this.FindByName<global::Xamarin.Forms.StackLayout>("label2");
+            phoneNumberText = this.FindByName<global::Xamarin.Forms.Entry>("phoneNumberText");
+            loginButton = this.FindByName<global::Xamarin.Forms.Button>("loginButton");
         }
     }
 }
