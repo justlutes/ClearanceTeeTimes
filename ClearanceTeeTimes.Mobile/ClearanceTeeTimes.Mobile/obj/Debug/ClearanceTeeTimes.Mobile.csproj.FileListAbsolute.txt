@@ -18,7 +18,6 @@ C:\Users\klute\Dropbox\UCF\ClearanceTeeTimes.Mobile\ClearanceTeeTimes.Mobile\Cle
 C:\Users\klute\Dropbox\UCF\ClearanceTeeTimes.Mobile\ClearanceTeeTimes.Mobile\ClearanceTeeTimes.Mobile\bin\Debug\Xamarin.Forms.Xaml.dll
 C:\Users\klute\Dropbox\UCF\ClearanceTeeTimes.Mobile\ClearanceTeeTimes.Mobile\ClearanceTeeTimes.Mobile\bin\Debug\Xamarin.Forms.Core.xml
 C:\Users\klute\Dropbox\UCF\ClearanceTeeTimes.Mobile\ClearanceTeeTimes.Mobile\ClearanceTeeTimes.Mobile\bin\Debug\Xamarin.Forms.Xaml.xml
-C:\Users\klute\Dropbox\UCF\ClearanceTeeTimes.Mobile\ClearanceTeeTimes.Mobile\ClearanceTeeTimes.Mobile\obj\Debug\ClearanceTeeTimes.Mobile.csprojResolveAssemblyReference.cache
 C:\Users\klute\Dropbox\UCF\ClearanceTeeTimes.Mobile\ClearanceTeeTimes.Mobile\ClearanceTeeTimes.Mobile\obj\Debug\ClearanceTeeTimes.Mobile.Pages.InitialAuthentication.WelcomePage.xaml.g.cs
 C:\Users\klute\Dropbox\UCF\ClearanceTeeTimes.Mobile\ClearanceTeeTimes.Mobile\ClearanceTeeTimes.Mobile\obj\Debug\ClearanceTeeTimes.Mobile.dll
 C:\Users\klute\Dropbox\UCF\ClearanceTeeTimes.Mobile\ClearanceTeeTimes.Mobile\ClearanceTeeTimes.Mobile\obj\Debug\ClearanceTeeTimes.Mobile.pdb

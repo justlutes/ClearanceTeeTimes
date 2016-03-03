@@ -19,5 +19,10 @@ namespace ClearanceTeeTimes.Mobile.Pages.InitialAuthentication
         {
             loginButton.Text = "Soon!";
         }
+
+        void OnRegister (object sender, EventArgs e)
+        {
+            registerButton.Text = "Soon!";
+        }
     }
 }
