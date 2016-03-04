@@ -94,7 +94,6 @@
     <ITunesArtwork Include="iTunesArtwork" />
     <None Include="packages.config" />
     <ITunesArtwork Include="iTunesArtwork%402x" />
-    <None Include="Resources\shinglecreek.jpg" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\ClearanceTeeTimes.Mobile\ClearanceTeeTimes.Mobile.csproj">
@@ -118,6 +117,7 @@
     <BundleResource Include="Resources\Icon-Small%402x.png" />
     <BundleResource Include="Resources\Icon-Small%403x.png" />
     <InterfaceDefinition Include="Resources\LaunchScreen.storyboard" />
+    <BundleResource Include="Resources\shinglecreek.jpg" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />

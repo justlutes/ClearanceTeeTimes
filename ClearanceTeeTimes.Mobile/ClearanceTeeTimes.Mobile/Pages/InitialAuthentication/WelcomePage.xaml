@@ -9,11 +9,11 @@
                     WinPhone="20, 20, 20, 20" />
      </ContentPage.Padding>
     <ContentPage.Content>
-        <StackLayout VerticalOptions="FillAndExpand"
-                     HorizontalOptions="FillAndExpand"
+        <StackLayout VerticalOptions="Center"
+                     HorizontalOptions="Center"
                      Orientation="Vertical"
                      Spacing="15">
-            <Image Source="shingle_creek.jpg" />
+            <Image Source="shinglecreek.jpg" />
             <Button x:Name="loginButton" Text="Login" Clicked="OnLogin" />
             <Button x:Name="registerButton" Text="Register" Clicked="OnRegister" />
         </StackLayout>

@@ -26,6 +26,7 @@ C:\Users\Kyle\GolfNow\clearanceteetimes\ClearanceTeeTimes.Mobile\ClearanceTeeTim
 C:\Users\Kyle\GolfNow\clearanceteetimes\ClearanceTeeTimes.Mobile\ClearanceTeeTimes.Mobile.Droid\obj\Release\res\drawable-xxhdpi\icon.png
 C:\Users\Kyle\GolfNow\clearanceteetimes\ClearanceTeeTimes.Mobile\ClearanceTeeTimes.Mobile.Droid\obj\Release\R.cs.flag
 C:\Users\Kyle\GolfNow\clearanceteetimes\ClearanceTeeTimes.Mobile\ClearanceTeeTimes.Mobile.Droid\obj\Release\uploadflags.txt
+C:\Users\Kyle\GolfNow\clearanceteetimes\ClearanceTeeTimes.Mobile\ClearanceTeeTimes.Mobile.Droid\obj\Release\res\drawable\shinglecreek.jpg
 C:\Users\Kyle\GolfNow\clearanceteetimes\ClearanceTeeTimes.Mobile\ClearanceTeeTimes.Mobile.Droid\bin\Release\ClearanceTeeTimes.Mobile.dll.mdb
 C:\Users\Kyle\GolfNow\clearanceteetimes\ClearanceTeeTimes.Mobile\ClearanceTeeTimes.Mobile.Droid\obj\Release\ClearanceTeeTimes.Mobile.Droid.dll.mdb
 C:\Users\Kyle\GolfNow\clearanceteetimes\ClearanceTeeTimes.Mobile\ClearanceTeeTimes.Mobile.Droid\bin\Release\ClearanceTeeTimes.Mobile.Droid.dll.mdb
