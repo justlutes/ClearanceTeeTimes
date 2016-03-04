@@ -12,7 +12,7 @@ namespace ClearanceTeeTimes.Mobile.Pages.InitialAuthentication
     {
         public WelcomePage()
         {
-            InitializeComponent();
+          InitializeComponent();
         }
 
         void OnLogin (object sender, EventArgs e)

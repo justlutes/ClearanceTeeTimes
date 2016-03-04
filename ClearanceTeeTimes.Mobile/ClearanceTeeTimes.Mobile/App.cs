@@ -12,7 +12,7 @@ namespace ClearanceTeeTimes.Mobile
         public App()
         {
             // The root page of your application
-            MainPage = new ClearanceTeeTimes.Mobile.Pages.InitialAuthentication.WelcomePage ();
+            MainPage = new Pages.InitialAuthentication.WelcomePage ();
         }
 
         protected override void OnStart()

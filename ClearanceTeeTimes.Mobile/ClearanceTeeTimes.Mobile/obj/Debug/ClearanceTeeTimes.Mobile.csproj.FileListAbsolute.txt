@@ -36,3 +36,16 @@ C:\Users\Kyle\GolfNow\clearanceteetimes\ClearanceTeeTimes.Mobile\ClearanceTeeTim
 C:\Users\Kyle\GolfNow\clearanceteetimes\ClearanceTeeTimes.Mobile\ClearanceTeeTimes.Mobile\obj\Debug\ClearanceTeeTimes.Mobile.pdb
 C:\Users\Kyle\GolfNow\clearanceteetimes\ClearanceTeeTimes.Mobile\ClearanceTeeTimes.Mobile\obj\Debug\ClearanceTeeTimes.Mobile.dll.mdb
 C:\Users\Kyle\GolfNow\clearanceteetimes\ClearanceTeeTimes.Mobile\ClearanceTeeTimes.Mobile\bin\Debug\ClearanceTeeTimes.Mobile.dll.mdb
+C:\Users\klute\Dropbox\UCF\clearanceteetimes\ClearanceTeeTimes.Mobile\ClearanceTeeTimes.Mobile\bin\Debug\ClearanceTeeTimes.Mobile.dll
+C:\Users\klute\Dropbox\UCF\clearanceteetimes\ClearanceTeeTimes.Mobile\ClearanceTeeTimes.Mobile\bin\Debug\ClearanceTeeTimes.Mobile.pdb
+C:\Users\klute\Dropbox\UCF\clearanceteetimes\ClearanceTeeTimes.Mobile\ClearanceTeeTimes.Mobile\bin\Debug\Xamarin.Forms.Core.dll
+C:\Users\klute\Dropbox\UCF\clearanceteetimes\ClearanceTeeTimes.Mobile\ClearanceTeeTimes.Mobile\bin\Debug\Xamarin.Forms.Platform.dll
+C:\Users\klute\Dropbox\UCF\clearanceteetimes\ClearanceTeeTimes.Mobile\ClearanceTeeTimes.Mobile\bin\Debug\Xamarin.Forms.Xaml.dll
+C:\Users\klute\Dropbox\UCF\clearanceteetimes\ClearanceTeeTimes.Mobile\ClearanceTeeTimes.Mobile\bin\Debug\Xamarin.Forms.Core.xml
+C:\Users\klute\Dropbox\UCF\clearanceteetimes\ClearanceTeeTimes.Mobile\ClearanceTeeTimes.Mobile\bin\Debug\Xamarin.Forms.Xaml.xml
+C:\Users\klute\Dropbox\UCF\clearanceteetimes\ClearanceTeeTimes.Mobile\ClearanceTeeTimes.Mobile\obj\Debug\ClearanceTeeTimes.Mobile.csprojResolveAssemblyReference.cache
+C:\Users\klute\Dropbox\UCF\clearanceteetimes\ClearanceTeeTimes.Mobile\ClearanceTeeTimes.Mobile\obj\Debug\ClearanceTeeTimes.Mobile.Pages.InitialAuthentication.WelcomePage.xaml.g.cs
+C:\Users\klute\Dropbox\UCF\clearanceteetimes\ClearanceTeeTimes.Mobile\ClearanceTeeTimes.Mobile\obj\Debug\ClearanceTeeTimes.Mobile.dll
+C:\Users\klute\Dropbox\UCF\clearanceteetimes\ClearanceTeeTimes.Mobile\ClearanceTeeTimes.Mobile\obj\Debug\ClearanceTeeTimes.Mobile.pdb
+C:\Users\klute\Dropbox\UCF\clearanceteetimes\ClearanceTeeTimes.Mobile\ClearanceTeeTimes.Mobile\obj\Debug\ClearanceTeeTimes.Mobile.dll.mdb
+C:\Users\klute\Dropbox\UCF\clearanceteetimes\ClearanceTeeTimes.Mobile\ClearanceTeeTimes.Mobile\bin\Debug\ClearanceTeeTimes.Mobile.dll.mdb
