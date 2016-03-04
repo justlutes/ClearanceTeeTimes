@@ -13,15 +13,17 @@
           <Grid.RowDefinitions>
             <RowDefinition Height="25" />
             <RowDefinition Height="Auto" />
+            <RowDefinition Height="100" />
             <RowDefinition Height="*" />
+            <RowDefinition Height="25" />
             <RowDefinition Height="*" />
           </Grid.RowDefinitions>
           <Grid.ColumnDefinitions>
             <ColumnDefinition Width="Auto" />
           </Grid.ColumnDefinitions>
           <Image Grid.Column="1" Grid.Row="1" Source="TempLogo.png" />
-          <Button Grid.Column="1" Grid.Row="2" x:Name="loginButton" Text="Login" Clicked="OnLogin" BackgroundColor="#2c3e50" />
-          <Button Grid.Column="1" Grid.Row="3" x:Name="registerButton" Text="Register" Clicked="OnRegister" BackgroundColor="#2c3e50" />
+          <Button Grid.Column="1" Grid.Row="3" x:Name="loginButton" Text="Login" Clicked="OnLogin" BackgroundColor="#2c3e50" />
+          <Button Grid.Column="1" Grid.Row="5" x:Name="registerButton" Text="Register" Clicked="OnRegister" BackgroundColor="#2c3e50" />
         </Grid>
       </RelativeLayout>
       
