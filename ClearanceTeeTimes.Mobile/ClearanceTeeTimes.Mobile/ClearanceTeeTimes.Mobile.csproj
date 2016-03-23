@@ -39,6 +39,7 @@
     <Compile Include="Pages\InitialAuthentication\WelcomePage.xaml.cs">
       <DependentUpon>WelcomePage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Pages\RegisterInfo\UserRegisterInfo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
