@@ -89,5 +89,6 @@ C:\Users\klute\Dropbox\UCF\clearanceteetimes\ClearanceTeeTimes.Mobile\ClearanceT
 C:\Users\klute\Dropbox\UCF\clearanceteetimes\ClearanceTeeTimes.Mobile\ClearanceTeeTimes.Mobile.Droid\obj\Debug\R.cs.flag
 C:\Users\klute\Dropbox\UCF\clearanceteetimes\ClearanceTeeTimes.Mobile\ClearanceTeeTimes.Mobile.Droid\obj\Debug\uploadflags.txt
 C:\Users\klute\Dropbox\UCF\clearanceteetimes\ClearanceTeeTimes.Mobile\ClearanceTeeTimes.Mobile.Droid\obj\Debug\res\drawable\templogo.png
+C:\Users\klute\Dropbox\UCF\clearanceteetimes\ClearanceTeeTimes.Mobile\ClearanceTeeTimes.Mobile.Droid\bin\Debug\ClearanceTeeTimes.Mobile.dll.mdb
 C:\Users\klute\Dropbox\UCF\clearanceteetimes\ClearanceTeeTimes.Mobile\ClearanceTeeTimes.Mobile.Droid\obj\Debug\ClearanceTeeTimes.Mobile.Droid.dll.mdb
 C:\Users\klute\Dropbox\UCF\clearanceteetimes\ClearanceTeeTimes.Mobile\ClearanceTeeTimes.Mobile.Droid\bin\Debug\ClearanceTeeTimes.Mobile.Droid.dll.mdb

@@ -49,3 +49,5 @@ C:\Users\klute\Dropbox\UCF\clearanceteetimes\ClearanceTeeTimes.Mobile\ClearanceT
 C:\Users\klute\Dropbox\UCF\clearanceteetimes\ClearanceTeeTimes.Mobile\ClearanceTeeTimes.Mobile\obj\Debug\ClearanceTeeTimes.Mobile.pdb
 C:\Users\klute\Dropbox\UCF\clearanceteetimes\ClearanceTeeTimes.Mobile\ClearanceTeeTimes.Mobile\obj\Debug\ClearanceTeeTimes.Mobile.dll.mdb
 C:\Users\klute\Dropbox\UCF\clearanceteetimes\ClearanceTeeTimes.Mobile\ClearanceTeeTimes.Mobile\bin\Debug\ClearanceTeeTimes.Mobile.dll.mdb
+C:\Users\klute\Dropbox\UCF\clearanceteetimes\ClearanceTeeTimes.Mobile\ClearanceTeeTimes.Mobile\obj\Debug\ClearanceTeeTimes.Mobile.dll.mdb
+C:\Users\klute\Dropbox\UCF\clearanceteetimes\ClearanceTeeTimes.Mobile\ClearanceTeeTimes.Mobile\bin\Debug\ClearanceTeeTimes.Mobile.dll.mdb
