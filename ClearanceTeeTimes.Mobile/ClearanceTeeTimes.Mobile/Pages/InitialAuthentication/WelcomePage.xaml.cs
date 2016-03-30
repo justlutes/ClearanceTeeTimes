@@ -17,12 +17,18 @@ namespace ClearanceTeeTimes.Mobile.Pages.InitialAuthentication
 
         void OnLogin (object sender, EventArgs e)
         {
-            loginButton.Text = "Soon!";
+            loginButton.Text = "Login!";
         }
 
         void OnRegister (object sender, EventArgs e)
         {
-            registerButton.Text = "Soon!";
+            registerButton.Text = "Register!";
+        }
+
+        public void InitializeComponent()
+        {
+
+
         }
     }
 }
