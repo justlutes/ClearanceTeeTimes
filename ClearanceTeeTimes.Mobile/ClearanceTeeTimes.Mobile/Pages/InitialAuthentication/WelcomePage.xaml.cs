@@ -8,27 +8,23 @@ using Xamarin.Forms;
 
 namespace ClearanceTeeTimes.Mobile.Pages.InitialAuthentication
 {
-    public partial class WelcomePage : ContentPage
-    {
-        public WelcomePage()
-        {
-          InitializeComponent();
-        }
+	public partial class WelcomePage : ContentPage
+	{
+		public WelcomePage()
+		{
+			InitializeComponent();
+		}
 
-        void OnLogin (object sender, EventArgs e)
-        {
-            loginButton.Text = "Login!";
-        }
+		void OnLogin(object sender, EventArgs e)
+		{
+			loginButton.Text = "Login!";
+		}
 
-        void OnRegister (object sender, EventArgs e)
-        {
-            registerButton.Text = "Register!";
-        }
-
-        public void InitializeComponent()
-        {
+		void OnRegister(object sender, EventArgs e)
+		{
+			registerButton.Text = "Register!";
+		}
 
 
-        }
-    }
+	}
 }
