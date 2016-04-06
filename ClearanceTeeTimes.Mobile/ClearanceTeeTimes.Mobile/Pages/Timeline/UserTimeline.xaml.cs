@@ -16,9 +16,8 @@ namespace ClearanceTeeTimes.Mobile
 
 		public List<string> GetUserCourses(string selectCourses)
 		{
-			List<string> userCourses;
-
-
+			List<string> userCourses = "";
+		
 			return userCourses;
 		}
 

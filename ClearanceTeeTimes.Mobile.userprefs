@@ -1,6 +1,10 @@
 ﻿<Properties StartupItem="ClearanceTeeTimes.Mobile\ClearanceTeeTimes.Mobile.Droid\ClearanceTeeTimes.Mobile.Droid.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.Nexus 5 (KitKat)" />
-  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.Workbench ActiveDocument="ClearanceTeeTimes.Mobile\ClearanceTeeTimes.Mobile\Pages\InitialAuthentication\WelcomePage.xaml.cs">
+    <Files>
+      <File FileName="ClearanceTeeTimes.Mobile\ClearanceTeeTimes.Mobile\Pages\InitialAuthentication\WelcomePage.xaml.cs" Line="26" Column="4" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
