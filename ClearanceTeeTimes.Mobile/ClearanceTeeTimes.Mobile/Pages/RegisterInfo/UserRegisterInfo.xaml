@@ -5,49 +5,49 @@
 <Label Id="fNameLbl">
 Text = "First Name"
 </Label>
-<Entry Id="fNameEntryBox">
+<Entry x:Name="fNameEntryBox">
 
 </Entry>
 
 <Label Id="lNameLbl">
 Text = "Last Name"
 </Label>
-<Entry Id="lNameEntryBox">
+<Entry x:Name="lNameEntryBox">
 
 </Entry>
 
 <Label Id="maleFemaleLbl">
 Text = "M/F"
 </Label>
-<Entry Id="maleFemaleEntryBox">
+<Entry x:Name="maleFemaleEntryBox">
 
 </Entry>
 
 <Label Id="cityLbl">
 Text = "City"
 </Label>
-<Entry Id="cityEntryBox">
+<Entry x:Name="cityEntryBox">
 
 </Entry>
 
 <Label Id="stateLbl">
 Text = "State"
 </Label>
-<Entry Id="stateEntryBox">
+<Entry x:Name="stateEntryBox">
 
 </Entry>
 
 <Label Id="zipCodeLbl">
 Text = "Zip Code"
 </Label>
-<Entry Id="zipEntryBox">
+<Entry x:Name="zipEntryBox">
 
 </Entry>
 
 <Label Id="emailLbl">
 Text = "Email"
 </Label>
-<Entry Id="emailEntryBox">
+<Entry x:Name="emailEntryBox">
 
 </Entry>
 
