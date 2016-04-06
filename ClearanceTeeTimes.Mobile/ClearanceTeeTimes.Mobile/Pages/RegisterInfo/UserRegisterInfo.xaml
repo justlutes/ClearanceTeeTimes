@@ -1,5 +1,55 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="ClearanceTeeTimes.Mobile.UserRegisterInfo">
 	<ContentPage.Content>
+
+<Label Id="fNameLbl">
+Text = "First Name"
+</Label>
+<Entry Id="fNameEntryBox">
+
+</Entry>
+
+<Label Id="lNameLbl">
+Text = "Last Name"
+</Label>
+<Entry Id="lNameEntryBox">
+
+</Entry>
+
+<Label Id="maleFemaleLbl">
+Text = "M/F"
+</Label>
+<Entry Id="maleFemaleEntryBox">
+
+</Entry>
+
+<Label Id="cityLbl">
+Text = "City"
+</Label>
+<Entry Id="cityEntryBox">
+
+</Entry>
+
+<Label Id="stateLbl">
+Text = "State"
+</Label>
+<Entry Id="stateEntryBox">
+
+</Entry>
+
+<Label Id="zipCodeLbl">
+Text = "Zip Code"
+</Label>
+<Entry Id="zipEntryBox">
+
+</Entry>
+
+<Label Id="emailLbl">
+Text = "Email"
+</Label>
+<Entry Id="emailEntryBox">
+
+</Entry>
+
 	</ContentPage.Content>
 </ContentPage>
