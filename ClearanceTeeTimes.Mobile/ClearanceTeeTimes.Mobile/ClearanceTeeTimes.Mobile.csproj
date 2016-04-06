@@ -47,6 +47,9 @@
     <Compile Include="Pages\RegisterInfo\UserRegisterInfo.xaml.cs">
       <DependentUpon>UserRegisterInfo.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Pages\Timeline\UserTimeline.xaml.cs">
+      <DependentUpon>UserTimeline.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Xamarin.Forms.Core, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null">
@@ -72,6 +75,9 @@
     <EmbeddedResource Include="Pages\RegisterInfo\UserRegisterInfo.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Include="Pages\Timeline\UserTimeline.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <Content Include="Resources\TempLogo.png" />
@@ -91,4 +97,7 @@
   <Target Name="AfterBuild">
   </Target>
   -->
+  <ItemGroup>
+    <Folder Include="Pages\Timeline\" />
+  </ItemGroup>
 </Project>
