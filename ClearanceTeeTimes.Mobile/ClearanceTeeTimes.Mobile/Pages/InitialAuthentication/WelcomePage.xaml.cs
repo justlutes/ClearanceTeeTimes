@@ -23,6 +23,8 @@ namespace ClearanceTeeTimes.Mobile.Pages.InitialAuthentication
 		void OnRegister(object sender, EventArgs e)
 		{
 			registerButton.Text = "Register!";
+			Command = new Command (async () => 
+				await Navigation.PushAsync (new UserRegisterInfo ()));
 		}
 
 
