@@ -1,13 +1,13 @@
 ﻿using System;
 using System.Net.Http;
-using Fusillade;
-using ModernHttpClient;
-using Refit;
 using System.Threading.Tasks;
-using GolfNow.Mobile.Core.Business;
+using Fusillade;
 using GolfNow.Mobile.Business;
 using GolfNow.Mobile.Core.Api;
+using GolfNow.Mobile.Core.Business;
+using ModernHttpClient;
 using Newtonsoft.Json;
+using Refit;
 
 namespace ClearanceTeeTimes.Mobile
 {

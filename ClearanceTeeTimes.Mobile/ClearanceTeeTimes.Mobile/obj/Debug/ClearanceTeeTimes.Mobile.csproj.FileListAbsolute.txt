@@ -1,16 +1,3 @@
-C:\Users\Kyle\GolfNow\ClearanceTeeTimes.Mobile\ClearanceTeeTimes.Mobile\bin\Debug\ClearanceTeeTimes.Mobile.dll
-C:\Users\Kyle\GolfNow\ClearanceTeeTimes.Mobile\ClearanceTeeTimes.Mobile\bin\Debug\ClearanceTeeTimes.Mobile.pdb
-C:\Users\Kyle\GolfNow\ClearanceTeeTimes.Mobile\ClearanceTeeTimes.Mobile\bin\Debug\Xamarin.Forms.Core.dll
-C:\Users\Kyle\GolfNow\ClearanceTeeTimes.Mobile\ClearanceTeeTimes.Mobile\bin\Debug\Xamarin.Forms.Platform.dll
-C:\Users\Kyle\GolfNow\ClearanceTeeTimes.Mobile\ClearanceTeeTimes.Mobile\bin\Debug\Xamarin.Forms.Xaml.dll
-C:\Users\Kyle\GolfNow\ClearanceTeeTimes.Mobile\ClearanceTeeTimes.Mobile\bin\Debug\Xamarin.Forms.Core.xml
-C:\Users\Kyle\GolfNow\ClearanceTeeTimes.Mobile\ClearanceTeeTimes.Mobile\bin\Debug\Xamarin.Forms.Xaml.xml
 C:\Users\Kyle\GolfNow\ClearanceTeeTimes.Mobile\ClearanceTeeTimes.Mobile\obj\Debug\ClearanceTeeTimes.Mobile.Pages.InitialAuthentication.WelcomePage.xaml.g.cs
 C:\Users\Kyle\GolfNow\ClearanceTeeTimes.Mobile\ClearanceTeeTimes.Mobile\obj\Debug\ClearanceTeeTimes.Mobile.Pages.RegisterInfo.UserRegisterInfo.xaml.g.cs
 C:\Users\Kyle\GolfNow\ClearanceTeeTimes.Mobile\ClearanceTeeTimes.Mobile\obj\Debug\ClearanceTeeTimes.Mobile.Pages.Timeline.UserTimeline.xaml.g.cs
-C:\Users\Kyle\GolfNow\ClearanceTeeTimes.Mobile\ClearanceTeeTimes.Mobile\obj\Debug\ClearanceTeeTimes.Mobile.dll
-C:\Users\Kyle\GolfNow\ClearanceTeeTimes.Mobile\ClearanceTeeTimes.Mobile\obj\Debug\ClearanceTeeTimes.Mobile.pdb
-C:\Users\Kyle\GolfNow\ClearanceTeeTimes.Mobile\ClearanceTeeTimes.Mobile\obj\Debug\ClearanceTeeTimes.Mobile.dll.mdb
-C:\Users\Kyle\GolfNow\ClearanceTeeTimes.Mobile\ClearanceTeeTimes.Mobile\bin\Debug\ClearanceTeeTimes.Mobile.dll.mdb
-C:\Users\Kyle\GolfNow\ClearanceTeeTimes.Mobile\ClearanceTeeTimes.Mobile\obj\Debug\ClearanceTeeTimes.Mobile.dll.mdb
-C:\Users\Kyle\GolfNow\ClearanceTeeTimes.Mobile\ClearanceTeeTimes.Mobile\bin\Debug\ClearanceTeeTimes.Mobile.dll.mdb

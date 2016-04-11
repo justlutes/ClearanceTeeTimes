@@ -50,12 +50,8 @@
     <Compile Include="Pages\Timeline\UserTimeline.xaml.cs">
       <DependentUpon>UserTimeline.xaml</DependentUpon>
     </Compile>
-<<<<<<< HEAD
     <Compile Include="Pages\InitialAuthentication\Navigation.cs" />
-=======
-    <Compile Include="Facebook.cs" />
     <Compile Include="ApiService\GolfNowApiService.cs" />
->>>>>>> 7b9081d8e108d1f7805cf41e3dd3245ffc6baaa2
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
