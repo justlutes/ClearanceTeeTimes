@@ -14,12 +14,12 @@ namespace ClearanceTeeTimes.Mobile
 
 		static string selectUserCourses = "";
 
-		public List<string> GetUserCourses(string selectCourses)
-		{
-			List<string> userCourses = "";
-		
-			return userCourses;
-		}
+//		public List<string> GetUserCourses(string selectCourses)
+//		{
+//			List<string> userCourses = "";
+//		
+//			return userCourses;
+//		}
 
 	}
 }

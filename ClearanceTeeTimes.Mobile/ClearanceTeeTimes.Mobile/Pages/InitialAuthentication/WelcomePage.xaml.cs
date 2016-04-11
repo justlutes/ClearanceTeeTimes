@@ -22,10 +22,14 @@ namespace ClearanceTeeTimes.Mobile.Pages.InitialAuthentication
 
 		void OnRegister(object sender, EventArgs e)
 		{
-			Command = new Command (async () => 
-				await Navigation.PushAsync (new UserRegisterInfo ()));
+			registerButton.Text = "Register!";
+//			Command = new Command (async () => 
+//				await Navigation.PushAsync (new UserRegisterInfo ()));
 		}
+	}
 
+	public class FacebookLoginButton : Button
+	{
 
 	}
 }

@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:customcontrols="clr-namespace:ClearanceTeeTimes.Mobile.Pages.InitialAuthentication;assembly=ClearanceTeeTimes"
              x:Class="ClearanceTeeTimes.Mobile.Pages.InitialAuthentication.WelcomePage"
              >
    
@@ -24,6 +25,10 @@
           <Button Grid.Column="0" Grid.Row="3" x:Name="loginButton" Text="Login" Clicked="OnLogin" BackgroundColor="#2c3e50" />
           <Button Grid.Column="0" Grid.Row="4" x:Name="registerButton" Text="Register" Clicked="OnRegister" BackgroundColor="#2c3e50" />
         </Grid>
+        <StackLayout Orientation="Vertical" VerticalOptions="FillAndExpand" HorizontalOptions="Center">
+        	<customcontrols:FacebookLoginButton Text="Login with Facebook" VerticalOptions="Start"
+        	HorizontalOptions="FillAndExpand"></customcontrols:FacebookLoginButton>
+        </StackLayout>
       </RelativeLayout>
       
     </ContentPage.Content>
