@@ -51,6 +51,7 @@
       <DependentUpon>UserTimeline.xaml</DependentUpon>
     </Compile>
     <Compile Include="Facebook.cs" />
+    <Compile Include="ApiService\GolfNowApiService.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
