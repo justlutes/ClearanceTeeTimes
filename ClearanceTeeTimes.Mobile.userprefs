@@ -2,11 +2,16 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.Nexus 5 (KitKat)" />
   <MonoDevelop.Ide.Workbench ActiveDocument="ClearanceTeeTimes.Mobile\ClearanceTeeTimes.Mobile\Pages\InitialAuthentication\WelcomePage.xaml.cs">
     <Files>
-      <File FileName="ClearanceTeeTimes.Mobile\ClearanceTeeTimes.Mobile\Pages\InitialAuthentication\WelcomePage.xaml.cs" Line="26" Column="4" />
+      <File FileName="ClearanceTeeTimes.Mobile\ClearanceTeeTimes.Mobile\Pages\InitialAuthentication\WelcomePage.xaml.cs" Line="36" Column="1" />
+      <File FileName="ClearanceTeeTimes.Mobile\ClearanceTeeTimes.Mobile\Pages\InitialAuthentication\WelcomePage.xaml" Line="30" Column="44" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint traceExpression="{global::Xamarin.Forms}" file="C:\Users\Kyle\GolfNow\ClearanceTeeTimes.Mobile\ClearanceTeeTimes.Mobile\obj\Debug\ClearanceTeeTimes.Mobile.Pages.InitialAuthentication.WelcomePage.xaml.g.cs" line="29" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches>
+    <Watch file="ClearanceTeeTimes.Mobile\ClearanceTeeTimes.Mobile\obj\Debug\ClearanceTeeTimes.Mobile.Pages.InitialAuthentication.WelcomePage.xaml.g.cs" line="29" offsetX="711" offsetY="448" expression="global::Xamarin.Forms" liveUpdate="True" />
+  </MonoDevelop.Ide.DebuggingService.PinnedWatches>
 </Properties>
