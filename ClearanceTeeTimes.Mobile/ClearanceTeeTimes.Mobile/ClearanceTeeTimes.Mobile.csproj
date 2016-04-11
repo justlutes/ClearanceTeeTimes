@@ -100,5 +100,6 @@
   -->
   <ItemGroup>
     <Folder Include="Pages\Timeline\" />
+    <Folder Include="ApiService\" />
   </ItemGroup>
 </Project>
