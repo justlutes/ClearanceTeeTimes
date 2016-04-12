@@ -1,0 +1,10 @@
+Properties/AssemblyInfo.cs
+Abstract/IMobileGolfNowAPI.cs
+Utilities/Authorization.cs
+Utilities/CustomerTokenInspector.cs
+Utilities/CustomerTokenOperationBehavior.cs
+Utilities/CustomerTokenServiceBehavior.cs
+Utilities/CustomerTokenStore.cs
+PreserveAttribute.cs
+Utilities/AsyncErrorHandler.cs
+Abstract/IGooglePlacesApi.cs

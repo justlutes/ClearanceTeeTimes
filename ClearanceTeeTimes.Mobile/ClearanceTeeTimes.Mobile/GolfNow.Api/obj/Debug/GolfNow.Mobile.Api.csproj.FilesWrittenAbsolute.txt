@@ -1,0 +1,17 @@
+/Users/ChristopherSingh/lastminutegolfer/LastMinuteGolfer.Api/obj/Debug/.NETPortable,Version=v4.5,Profile=Profile111.AssemblyAttribute.cs
+/Users/ChristopherSingh/lastminutegolfer/LastMinuteGolfer.Api/bin/Debug/LastMinuteGolfer.Api.dll.mdb
+/Users/ChristopherSingh/lastminutegolfer/LastMinuteGolfer.Api/bin/Debug/LastMinuteGolfer.Api.dll
+/Users/ChristopherSingh/lastminutegolfer/LastMinuteGolfer.Api/obj/Debug/LastMinuteGolfer.Api.dll
+/Users/ChristopherSingh/lastminutegolfer/LastMinuteGolfer.Api/obj/Debug/LastMinuteGolfer.Api.dll.mdb
+/Users/ChristopherSingh/lastminutegolfer/LastMinuteGolfer.Api/bin/Debug/Newtonsoft.Json.dll
+/Users/ChristopherSingh/lastminutegolfer/LastMinuteGolfer.Api/bin/Debug/Refit.dll
+/Users/ChristopherSingh/lastminutegolfer/LastMinuteGolfer.Api/bin/Debug/System.Net.Http.Primitives.dll
+/Users/ChristopherSingh/lastminutegolfer/LastMinuteGolfer.Api/bin/Debug/System.Net.Http.Extensions.dll
+/Users/ChristopherSingh/lastminutegolfer/LastMinuteGolfer.Api/bin/Debug/ModernHttpClient.dll
+/Users/ChristopherSingh/lastminutegolfer/LastMinuteGolfer.Api/bin/Debug/bouncy_castle_hmac_sha_pcl.dll
+/Users/ChristopherSingh/lastminutegolfer/LastMinuteGolfer.Api/bin/Debug/PCLCrypto.dll
+/Users/ChristopherSingh/lastminutegolfer/LastMinuteGolfer.Api/bin/Debug/ConfigureAwait.dll
+/Users/ChristopherSingh/lastminutegolfer/LastMinuteGolfer.Api/bin/Debug/Splat.dll
+/Users/ChristopherSingh/lastminutegolfer/LastMinuteGolfer.Api/bin/Debug/Validation.dll
+/Users/ChristopherSingh/lastminutegolfer/LastMinuteGolfer.Api/bin/Debug/LastMinuteGolfer.Models.dll
+/Users/ChristopherSingh/lastminutegolfer/LastMinuteGolfer.Api/bin/Debug/LastMinuteGolfer.Models.dll.mdb

@@ -51,7 +51,134 @@
       <DependentUpon>UserTimeline.xaml</DependentUpon>
     </Compile>
     <Compile Include="Pages\InitialAuthentication\Navigation.cs" />
+    <Compile Include="GolfNow.Mobile.Models\DataContracts\AccountBalanceRemaining.cs" />
+    <Compile Include="GolfNow.Mobile.Models\DataContracts\AccountCredit.cs" />
+    <Compile Include="GolfNow.Mobile.Models\DataContracts\Address.cs" />
+    <Compile Include="GolfNow.Mobile.Models\DataContracts\Affiliate.cs" />
+    <Compile Include="GolfNow.Mobile.Models\DataContracts\AffiliatePayment.cs" />
+    <Compile Include="GolfNow.Mobile.Models\DataContracts\AmazonPayment.cs" />
+    <Compile Include="GolfNow.Mobile.Models\DataContracts\AreaSearchItem.cs" />
+    <Compile Include="GolfNow.Mobile.Models\DataContracts\AreaSearchResult.cs" />
+    <Compile Include="GolfNow.Mobile.Models\DataContracts\ChannelSettings.cs" />
+    <Compile Include="GolfNow.Mobile.Models\DataContracts\CharitableDonation.cs" />
+    <Compile Include="GolfNow.Mobile.Models\DataContracts\Charity.cs" />
+    <Compile Include="GolfNow.Mobile.Models\DataContracts\City.cs" />
+    <Compile Include="GolfNow.Mobile.Models\DataContracts\ConfirmationEmailRequest.cs" />
+    <Compile Include="GolfNow.Mobile.Models\DataContracts\Country.cs" />
+    <Compile Include="GolfNow.Mobile.Models\DataContracts\CouponInfo.cs" />
+    <Compile Include="GolfNow.Mobile.Models\DataContracts\CourseStatistics.cs" />
+    <Compile Include="GolfNow.Mobile.Models\DataContracts\CreditCardPayment.cs" />
+    <Compile Include="GolfNow.Mobile.Models\DataContracts\CreditCardPaymentOption.cs" />
+    <Compile Include="GolfNow.Mobile.Models\DataContracts\CustomerCredentials.cs" />
+    <Compile Include="GolfNow.Mobile.Models\DataContracts\CustomerEligibility.cs" />
+    <Compile Include="GolfNow.Mobile.Models\DataContracts\CustomerProfile.cs" />
+    <Compile Include="GolfNow.Mobile.Models\DataContracts\CustomerProfileNew.cs" />
+    <Compile Include="GolfNow.Mobile.Models\DataContracts\CustomerProfileResponse.cs" />
+    <Compile Include="GolfNow.Mobile.Models\DataContracts\CustomerSubscription.cs" />
+    <Compile Include="GolfNow.Mobile.Models\DataContracts\CustomerSubscriptionList.cs" />
+    <Compile Include="GolfNow.Mobile.Models\DataContracts\CustomerSubscriptionProfile.cs" />
+    <Compile Include="GolfNow.Mobile.Models\DataContracts\Discount.cs" />
+    <Compile Include="GolfNow.Mobile.Models\DataContracts\DocumentationReviewRequest.cs" />
+    <Compile Include="GolfNow.Mobile.Models\DataContracts\DocumentationReviewRequestResult.cs" />
+    <Compile Include="GolfNow.Mobile.Models\DataContracts\EligibilityReviewDocument.cs" />
+    <Compile Include="GolfNow.Mobile.Models\DataContracts\EmailPreferences.cs" />
+    <Compile Include="GolfNow.Mobile.Models\DataContracts\Expandable.cs" />
+    <Compile Include="GolfNow.Mobile.Models\DataContracts\ExpandRequest.cs" />
+    <Compile Include="GolfNow.Mobile.Models\DataContracts\ExpandSetting.cs" />
+    <Compile Include="GolfNow.Mobile.Models\DataContracts\Facility.cs" />
+    <Compile Include="GolfNow.Mobile.Models\DataContracts\FacilityDetail.cs" />
+    <Compile Include="GolfNow.Mobile.Models\DataContracts\FacilityNote.cs" />
+    <Compile Include="GolfNow.Mobile.Models\DataContracts\FacilityRate.cs" />
+    <Compile Include="GolfNow.Mobile.Models\DataContracts\FacilitySearchItem.cs" />
+    <Compile Include="GolfNow.Mobile.Models\DataContracts\FacilitySearchResult.cs" />
+    <Compile Include="GolfNow.Mobile.Models\DataContracts\FacilitySummaryCollection.cs" />
+    <Compile Include="GolfNow.Mobile.Models\DataContracts\FacilitySummaryListItem.cs" />
+    <Compile Include="GolfNow.Mobile.Models\DataContracts\FacilitySummaryTeeTime.cs" />
+    <Compile Include="GolfNow.Mobile.Models\DataContracts\FaultContract.cs" />
+    <Compile Include="GolfNow.Mobile.Models\DataContracts\ForwardConfirmationRequest.cs" />
+    <Compile Include="GolfNow.Mobile.Models\DataContracts\ForwardMultipleConfirmationRequest.cs" />
+    <Compile Include="GolfNow.Mobile.Models\DataContracts\GeographicInformation.cs" />
+    <Compile Include="GolfNow.Mobile.Models\DataContracts\GiftCardPaymentOption.cs" />
+    <Compile Include="GolfNow.Mobile.Models\DataContracts\GolfBuddy.cs" />
+    <Compile Include="GolfNow.Mobile.Models\DataContracts\GolfBuddyDetails.cs" />
+    <Compile Include="GolfNow.Mobile.Models\DataContracts\GreensFeeOverride.cs" />
+    <Compile Include="GolfNow.Mobile.Models\DataContracts\GuestCredentials.cs" />
+    <Compile Include="GolfNow.Mobile.Models\DataContracts\GuestInfo.cs" />
+    <Compile Include="GolfNow.Mobile.Models\DataContracts\LoyaltyStatus.cs" />
+    <Compile Include="GolfNow.Mobile.Models\DataContracts\Market.cs" />
+    <Compile Include="GolfNow.Mobile.Models\DataContracts\MasterCourse.cs" />
+    <Compile Include="GolfNow.Mobile.Models\DataContracts\MasterCourseCompositeLookup.cs" />
+    <Compile Include="GolfNow.Mobile.Models\DataContracts\MasterCourseStageResult.cs" />
+    <Compile Include="GolfNow.Mobile.Models\DataContracts\MasterCourseUpdates.cs" />
+    <Compile Include="GolfNow.Mobile.Models\DataContracts\Money.cs" />
+    <Compile Include="GolfNow.Mobile.Models\DataContracts\PasswordChangeRequest.cs" />
+    <Compile Include="GolfNow.Mobile.Models\DataContracts\PasswordPolicyRegex.cs" />
+    <Compile Include="GolfNow.Mobile.Models\DataContracts\PaymentInfo.cs" />
+    <Compile Include="GolfNow.Mobile.Models\DataContracts\PaymentOptionBase.cs" />
+    <Compile Include="GolfNow.Mobile.Models\DataContracts\PaymentType.cs" />
+    <Compile Include="GolfNow.Mobile.Models\DataContracts\PreferredTeeTimeRange.cs" />
+    <Compile Include="GolfNow.Mobile.Models\DataContracts\PromoCode.cs" />
+    <Compile Include="GolfNow.Mobile.Models\DataContracts\PromoCodeCollection.cs" />
+    <Compile Include="GolfNow.Mobile.Models\DataContracts\PromoCodeInfo.cs" />
+    <Compile Include="GolfNow.Mobile.Models\DataContracts\Purchase.cs" />
+    <Compile Include="GolfNow.Mobile.Models\DataContracts\PurchaseDetails.cs" />
+    <Compile Include="GolfNow.Mobile.Models\DataContracts\PurchaseStatus.cs" />
+    <Compile Include="GolfNow.Mobile.Models\DataContracts\RateOverride.cs" />
+    <Compile Include="GolfNow.Mobile.Models\DataContracts\RateOverrideTeeTimeInvoice.cs" />
+    <Compile Include="GolfNow.Mobile.Models\DataContracts\RateTag.cs" />
+    <Compile Include="GolfNow.Mobile.Models\DataContracts\RatingSummary.cs" />
+    <Compile Include="GolfNow.Mobile.Models\DataContracts\ResendConfirmationRequest.cs" />
+    <Compile Include="GolfNow.Mobile.Models\DataContracts\ResendMultipleConfirmationRequest.cs" />
+    <Compile Include="GolfNow.Mobile.Models\DataContracts\ReservationClaim.cs" />
+    <Compile Include="GolfNow.Mobile.Models\DataContracts\ReservationConfirmation.cs" />
+    <Compile Include="GolfNow.Mobile.Models\DataContracts\ReservationConfirmationCollection.cs" />
+    <Compile Include="GolfNow.Mobile.Models\DataContracts\ReservationConfirmationDetail.cs" />
+    <Compile Include="GolfNow.Mobile.Models\DataContracts\ReservationDetail.cs" />
+    <Compile Include="GolfNow.Mobile.Models\DataContracts\ReservationMetadata.cs" />
+    <Compile Include="GolfNow.Mobile.Models\DataContracts\ResetPasswordTokenRequest.cs" />
+    <Compile Include="GolfNow.Mobile.Models\DataContracts\Review.cs" />
+    <Compile Include="GolfNow.Mobile.Models\DataContracts\ReviewCollection.cs" />
+    <Compile Include="GolfNow.Mobile.Models\DataContracts\Rewards.cs" />
+    <Compile Include="GolfNow.Mobile.Models\DataContracts\RewardsTiers.cs" />
+    <Compile Include="GolfNow.Mobile.Models\DataContracts\SavedCreditCardInfo.cs" />
+    <Compile Include="GolfNow.Mobile.Models\DataContracts\SavedCreditCardPayment.cs" />
+    <Compile Include="GolfNow.Mobile.Models\DataContracts\SavedPaymentInfo.cs" />
+    <Compile Include="GolfNow.Mobile.Models\DataContracts\SendForgotPasswordEmailRequest.cs" />
+    <Compile Include="GolfNow.Mobile.Models\DataContracts\StateProvince.cs" />
+    <Compile Include="GolfNow.Mobile.Models\DataContracts\Subratings.cs" />
+    <Compile Include="GolfNow.Mobile.Models\DataContracts\Subscription.cs" />
+    <Compile Include="GolfNow.Mobile.Models\DataContracts\TeeTime.cs" />
+    <Compile Include="GolfNow.Mobile.Models\DataContracts\TeeTimeBatchLookupRequest.cs" />
+    <Compile Include="GolfNow.Mobile.Models\DataContracts\TeeTimeCollection.cs" />
+    <Compile Include="GolfNow.Mobile.Models\DataContracts\TeeTimeInvoice.cs" />
+    <Compile Include="GolfNow.Mobile.Models\DataContracts\TeeTimePrice.cs" />
+    <Compile Include="GolfNow.Mobile.Models\DataContracts\TeeTimeRate.cs" />
+    <Compile Include="GolfNow.Mobile.Models\DataContracts\TeeTimeRateset.cs" />
+    <Compile Include="GolfNow.Mobile.Models\DataContracts\TopDeal.cs" />
+    <Compile Include="GolfNow.Mobile.Models\DataContracts\TopDealsResponse.cs" />
+    <Compile Include="GolfNow.Mobile.Models\DataContracts\TransactionFeeAlterationOverride.cs" />
+    <Compile Include="GolfNow.Mobile.Models\DataContracts\TransactionFeeOverride.cs" />
+    <Compile Include="GolfNow.Mobile.Models\DataContracts\TransactionFeeWaiveOverride.cs" />
+    <Compile Include="GolfNow.Mobile.Models\DataContracts\UserInfo.cs" />
+    <Compile Include="GolfNow.Mobile.Models\DataContracts\ValidateTokenRequest.cs" />
+    <Compile Include="GolfNow.Mobile.Models\DataContracts\Wallet.cs" />
+    <Compile Include="GolfNow.Mobile.Models\DataContracts\WeatherForcast.cs" />
+    <Compile Include="GolfNow.Mobile.Models\Properties\AssemblyInfo.cs" />
+    <Compile Include="GolfNow.Api\PreserveAttribute.cs" />
+    <Compile Include="GolfNow.Api\Abstract\IGooglePlacesApi.cs" />
+    <Compile Include="GolfNow.Api\obj\Debug\.NETPortable,Version=v4.5,Profile=Profile111.AssemblyAttribute.cs" />
+    <Compile Include="GolfNow.Api\obj\Debug\.NETPortable,Version=v4.5,Profile=Profile259.AssemblyAttribute.cs" />
+    <Compile Include="GolfNow.Api\obj\Debug\.NETPortable,Version=v4.5,Profile=Profile78.AssemblyAttribute.cs" />
+    <Compile Include="GolfNow.Api\obj\Debug\RefitStubs.g.cs" />
+    <Compile Include="GolfNow.Api\Properties\AssemblyInfo.cs" />
+    <Compile Include="GolfNow.Api\Utilities\AsyncErrorHandler.cs" />
+    <Compile Include="GolfNow.Api\Utilities\Authorization.cs" />
+    <Compile Include="GolfNow.Api\Utilities\CustomerTokenInspector.cs" />
+    <Compile Include="GolfNow.Api\Utilities\CustomerTokenOperationBehavior.cs" />
+    <Compile Include="GolfNow.Api\Utilities\CustomerTokenServiceBehavior.cs" />
+    <Compile Include="GolfNow.Api\Utilities\CustomerTokenStore.cs" />
     <Compile Include="ApiService\GolfNowApiService.cs" />
+    <Compile Include="GolfNow.Mobile.Models\IMobileGolfNowAPI.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
@@ -69,11 +196,73 @@
     <Reference Include="Xamarin.Forms.Xaml">
       <HintPath>..\..\packages\Xamarin.Forms.2.1.0.6529\lib\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.Xaml.dll</HintPath>
     </Reference>
+    <Reference Include="ModernHttpClient">
+      <HintPath>..\..\packages\modernhttpclient.2.4.2\lib\Portable-Net45+WinRT45+WP8+WPA81\ModernHttpClient.dll</HintPath>
+    </Reference>
+    <Reference Include="Splat">
+      <HintPath>..\..\packages\Splat.1.3.3\lib\Portable-net45+win+wpa81+wp80\Splat.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\..\packages\Newtonsoft.Json.6.0.5\lib\portable-net45+wp80+win8+wpa81\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reactive.Interfaces">
+      <HintPath>..\..\packages\Rx-Interfaces.2.2.5\lib\portable-net45+winrt45+wp8+wpa81\System.Reactive.Interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reactive.Core">
+      <HintPath>..\..\packages\Rx-Core.2.2.5\lib\portable-net45+winrt45+wp8+wpa81\System.Reactive.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reactive.Linq">
+      <HintPath>..\..\packages\Rx-Linq.2.2.5\lib\portable-net45+winrt45+wp8+wpa81\System.Reactive.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reactive.PlatformServices">
+      <HintPath>..\..\packages\Rx-PlatformServices.2.2.5\lib\portable-net45+winrt45+wp8+wpa81\System.Reactive.PlatformServices.dll</HintPath>
+    </Reference>
+    <Reference Include="Punchclock">
+      <HintPath>..\..\packages\Punchclock.1.1.1\lib\Portable-net45+win+wpa81+wp80\Punchclock.dll</HintPath>
+    </Reference>
+    <Reference Include="Fusillade">
+      <HintPath>..\..\packages\fusillade.0.6.0\lib\Portable-net45+win+wpa81+wp80\Fusillade.dll</HintPath>
+    </Reference>
+    <Reference Include="Refit">
+      <HintPath>..\..\packages\refit.2.4.1\lib\Portable-Net45+NetCore45+WP8+WPA81\Refit.dll</HintPath>
+    </Reference>
+    <Reference Include="Akavache">
+      <HintPath>..\..\packages\akavache.core.4.1.2\lib\Portable-Net45+Win8+WP8+Wpa81\Akavache.dll</HintPath>
+    </Reference>
+    <Reference Include="OAMobileServices.Mobile">
+      <HintPath>..\..\packages\net.openarc.mobileservices.0.0.7\lib\OAMobileServices.Mobile.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <None Include="GettingStarted.Xamarin" />
     <None Include="packages.config" />
     <None Include="Resources\shinglecreek.jpg" />
+    <None Include="GolfNow.Mobile.Models\.DS_Store" />
+    <None Include="GolfNow.Mobile.Models\GolfNow.Mobile.Models.csproj" />
+    <None Include="GolfNow.Api\.DS_Store" />
+    <None Include="GolfNow.Api\FodyWeavers.xml" />
+    <None Include="GolfNow.Api\Fody_ToBeDeleted.txt" />
+    <None Include="GolfNow.Api\GolfNow.Mobile.Api.csproj" />
+    <None Include="GolfNow.Api\LastMinuteGolfer.Api.sln" />
+    <None Include="GolfNow.Api\packages.config" />
+    <None Include="GolfNow.Api\bin\Debug\bouncy_castle_hmac_sha_pcl.dll" />
+    <None Include="GolfNow.Api\bin\Debug\ConfigureAwait.dll" />
+    <None Include="GolfNow.Api\bin\Debug\LastMinuteGolfer.Api.dll" />
+    <None Include="GolfNow.Api\bin\Debug\LastMinuteGolfer.Api.dll.mdb" />
+    <None Include="GolfNow.Api\bin\Debug\LastMinuteGolfer.Models.dll" />
+    <None Include="GolfNow.Api\bin\Debug\LastMinuteGolfer.Models.dll.mdb" />
+    <None Include="GolfNow.Api\bin\Debug\ModernHttpClient.dll" />
+    <None Include="GolfNow.Api\bin\Debug\Newtonsoft.Json.dll" />
+    <None Include="GolfNow.Api\bin\Debug\PCLCrypto.dll" />
+    <None Include="GolfNow.Api\bin\Debug\Refit.dll" />
+    <None Include="GolfNow.Api\bin\Debug\Splat.dll" />
+    <None Include="GolfNow.Api\bin\Debug\System.Net.Http.Extensions.dll" />
+    <None Include="GolfNow.Api\bin\Debug\System.Net.Http.Primitives.dll" />
+    <None Include="GolfNow.Api\bin\Debug\Validation.dll" />
+    <None Include="GolfNow.Api\obj\Debug\GolfNow.Mobile.Api.csproj.FilesWrittenAbsolute.txt" />
+    <None Include="GolfNow.Api\obj\Debug\LastMinuteGolfer.Api.dll" />
+    <None Include="GolfNow.Api\obj\Debug\LastMinuteGolfer.Api.dll.mdb" />
+    <None Include="GolfNow.Api\obj\Debug\RefitParams.rsp" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Pages\InitialAuthentication\WelcomePage.xaml">
@@ -92,6 +281,7 @@
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
   <Import Project="..\..\packages\Xamarin.Forms.2.1.0.6529\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.targets" Condition="Exists('..\..\packages\Xamarin.Forms.2.1.0.6529\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.targets')" />
+  <Import Project="..\..\packages\refit.2.4.1\build\portable-net45+netcore45+wp8+wpa81+monoandroid+xamarin.ios10\refit.targets" Condition="Exists('..\..\packages\refit.2.4.1\build\portable-net45+netcore45+wp8+wpa81+monoandroid+xamarin.ios10\refit.targets')" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">
