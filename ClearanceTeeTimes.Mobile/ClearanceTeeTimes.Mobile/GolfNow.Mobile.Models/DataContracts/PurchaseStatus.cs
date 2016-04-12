@@ -2,8 +2,6 @@
 using System.Globalization;
 using System.Runtime.Serialization;
 
-using GolfNow.API.Contracts.WebFaults;
-
 namespace GolfNow.Mobile.Models.DataContracts
 {
     /// <summary>

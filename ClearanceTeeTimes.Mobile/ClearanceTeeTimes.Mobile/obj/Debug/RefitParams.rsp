@@ -120,14 +120,8 @@ GolfNow.Mobile.Models\DataContracts\UserInfo.cs
 GolfNow.Mobile.Models\DataContracts\ValidateTokenRequest.cs
 GolfNow.Mobile.Models\DataContracts\Wallet.cs
 GolfNow.Mobile.Models\DataContracts\WeatherForcast.cs
-GolfNow.Mobile.Models\Properties\AssemblyInfo.cs
 GolfNow.Api\PreserveAttribute.cs
 GolfNow.Api\Abstract\IGooglePlacesApi.cs
-GolfNow.Api\obj\Debug\.NETPortable,Version=v4.5,Profile=Profile111.AssemblyAttribute.cs
-GolfNow.Api\obj\Debug\.NETPortable,Version=v4.5,Profile=Profile259.AssemblyAttribute.cs
-GolfNow.Api\obj\Debug\.NETPortable,Version=v4.5,Profile=Profile78.AssemblyAttribute.cs
-GolfNow.Api\obj\Debug\RefitStubs.g.cs
-GolfNow.Api\Properties\AssemblyInfo.cs
 GolfNow.Api\Utilities\AsyncErrorHandler.cs
 GolfNow.Api\Utilities\Authorization.cs
 GolfNow.Api\Utilities\CustomerTokenInspector.cs

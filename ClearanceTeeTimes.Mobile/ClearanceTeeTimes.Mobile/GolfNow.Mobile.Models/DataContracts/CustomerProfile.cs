@@ -3,8 +3,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Runtime.Serialization;
 using System.Text;
-using GolfNow.API.Contracts.Enumerations;
-using GolfNow.API.Contracts;
 
 namespace GolfNow.Mobile.Models.DataContracts
 {

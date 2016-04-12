@@ -1,8 +1,7 @@
 ﻿using System;
-using System.Security.Cryptography;
 using System.Text;
 using PCLCrypto;
-//using System.Security.Cryptography;
+using System.Security.Cryptography;
 
 namespace GolfNow.Mobile.API.Utilities
 {
@@ -10,7 +9,7 @@ namespace GolfNow.Mobile.API.Utilities
 	{
         public static string GetAuthorizationHeader(string username, string password, int timestamp, string secret)
         {
-            string toHash = String.Format("{0}{1}{2}", username, Convert.ToBase64String(HashSha1(password)), timestamp);
+            string toHash = String.Format("{0}" + "{1}{2}", username, Convert.ToBase64String(HashSha1(password)), timestamp);
             return Convert.ToBase64String(HashHmac256(Encoding.UTF8.GetBytes(toHash), Encoding.UTF8.GetBytes(secret)));
         }
 

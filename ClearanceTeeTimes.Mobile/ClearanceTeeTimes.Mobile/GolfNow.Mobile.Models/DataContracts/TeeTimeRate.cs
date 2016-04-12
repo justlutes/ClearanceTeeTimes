@@ -5,8 +5,6 @@ using System.Runtime.Serialization;
 using System.Text;
 using System.Threading.Tasks;
 
-using GolfNow.API.Contracts.Enumerations;
-
 namespace GolfNow.Mobile.Models.DataContracts
 {
     [DataContract]

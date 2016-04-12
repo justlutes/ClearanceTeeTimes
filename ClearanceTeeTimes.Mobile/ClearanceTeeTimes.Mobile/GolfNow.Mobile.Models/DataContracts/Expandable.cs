@@ -4,7 +4,6 @@ using System.Linq;
 using System.Runtime.Serialization;
 using System.Text;
 using System.Threading.Tasks;
-using GolfNow.API.Documentation.Business;
 
 namespace GolfNow.Mobile.Models.DataContracts
 {
@@ -12,7 +11,6 @@ namespace GolfNow.Mobile.Models.DataContracts
     /// An abstraction point for optional properties of return contracts.
     /// </summary>
     [DataContract]
-    [Documentable()]
     public class Expandable<T> where T : class
     {
         private T _value;
