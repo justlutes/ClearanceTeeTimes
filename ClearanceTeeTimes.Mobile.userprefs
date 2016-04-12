@@ -1,9 +1,8 @@
 ﻿<Properties StartupItem="ClearanceTeeTimes.Mobile\ClearanceTeeTimes.Mobile.Droid\ClearanceTeeTimes.Mobile.Droid.csproj" RefactoringSettings.EnableRefactorings="True">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.Nexus 5 (KitKat)" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="ClearanceTeeTimes.Mobile\ClearanceTeeTimes.Mobile\ApiService\GolfNowApiService.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ClearanceTeeTimes.Mobile\ClearanceTeeTimes.Mobile\GolfNow.Api\Utilities\Authorization.cs">
     <Files>
-      <File FileName="ClearanceTeeTimes.Mobile\ClearanceTeeTimes.Mobile\GolfNow.Mobile.Models\Properties\AssemblyInfo.cs" Line="7" Column="12" />
-      <File FileName="ClearanceTeeTimes.Mobile\ClearanceTeeTimes.Mobile\ApiService\GolfNowApiService.cs" Line="55" Column="75" />
+      <File FileName="ClearanceTeeTimes.Mobile\ClearanceTeeTimes.Mobile\GolfNow.Api\Utilities\Authorization.cs" Line="4" Column="23" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

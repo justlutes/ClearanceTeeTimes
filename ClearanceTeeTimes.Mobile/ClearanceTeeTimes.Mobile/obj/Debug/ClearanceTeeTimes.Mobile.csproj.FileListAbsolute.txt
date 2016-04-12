@@ -1,6 +1,4 @@
-C:\Users\Kyle\GolfNow\ClearanceTeeTimes.Mobile\ClearanceTeeTimes.Mobile\obj\Debug\ClearanceTeeTimes.Mobile.Pages.InitialAuthentication.WelcomePage.xaml.g.cs
-C:\Users\Kyle\GolfNow\ClearanceTeeTimes.Mobile\ClearanceTeeTimes.Mobile\obj\Debug\ClearanceTeeTimes.Mobile.Pages.RegisterInfo.UserRegisterInfo.xaml.g.cs
-C:\Users\Kyle\GolfNow\ClearanceTeeTimes.Mobile\ClearanceTeeTimes.Mobile\obj\Debug\ClearanceTeeTimes.Mobile.Pages.Timeline.UserTimeline.xaml.g.cs
+C:\Users\Kyle\GolfNow\clearanceteetimes\ClearanceTeeTimes.Mobile\ClearanceTeeTimes.Mobile\obj\Debug\ClearanceTeeTimes.Mobile.csprojResolveAssemblyReference.cache
 C:\Users\Kyle\GolfNow\clearanceteetimes\ClearanceTeeTimes.Mobile\ClearanceTeeTimes.Mobile\obj\Debug\ClearanceTeeTimes.Mobile.Pages.InitialAuthentication.WelcomePage.xaml.g.cs
 C:\Users\Kyle\GolfNow\clearanceteetimes\ClearanceTeeTimes.Mobile\ClearanceTeeTimes.Mobile\obj\Debug\ClearanceTeeTimes.Mobile.Pages.RegisterInfo.UserRegisterInfo.xaml.g.cs
 C:\Users\Kyle\GolfNow\clearanceteetimes\ClearanceTeeTimes.Mobile\ClearanceTeeTimes.Mobile\obj\Debug\ClearanceTeeTimes.Mobile.Pages.Timeline.UserTimeline.xaml.g.cs
