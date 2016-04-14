@@ -4,6 +4,7 @@ using System.Linq;
 using System.Runtime.Serialization;
 using System.Text;
 using System.Threading.Tasks;
+using GolfNow.Mobile.Core.Models;
 
 namespace GolfNow.Mobile.Models.DataContracts
 {

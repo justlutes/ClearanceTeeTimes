@@ -1,9 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Runtime.Serialization;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Runtime.Serialization;
+
+//using GolfNow.API.Documentation.Business;
 
 namespace GolfNow.Mobile.Models.DataContracts
 {
@@ -11,6 +8,7 @@ namespace GolfNow.Mobile.Models.DataContracts
     /// An abstraction point for optional properties of return contracts.
     /// </summary>
     [DataContract]
+    //[Documentable()]
     public class Expandable<T> where T : class
     {
         private T _value;
@@ -24,7 +22,7 @@ namespace GolfNow.Mobile.Models.DataContracts
         /// <summary>
         /// Gets a value indicating whether or not the value property was set.
         /// </summary>
-        [DataMemberAttribute]
+        [DataMember]
         public bool Expanded
         {
             get;
@@ -55,11 +53,11 @@ namespace GolfNow.Mobile.Models.DataContracts
             }
         }
 
-        public static FriendlyType CreateFriendlyType()
-        {
-            FriendlyType ft = FriendlyType.FromType(typeof(T));
-            return ft;
-        }
+        //public static FriendlyType CreateFriendlyType()
+        //{
+        //    FriendlyType ft = FriendlyType.FromType(typeof(T));
+        //    return ft;
+        //}
 
         public override string ToString()
         {

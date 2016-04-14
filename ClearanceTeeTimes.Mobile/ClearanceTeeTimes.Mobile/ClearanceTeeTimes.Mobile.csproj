@@ -11,7 +11,7 @@
     <RootNamespace>ClearanceTeeTimes.Mobile</RootNamespace>
     <AssemblyName>ClearanceTeeTimes.Mobile</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
-    <TargetFrameworkProfile>Profile111</TargetFrameworkProfile>
+    <TargetFrameworkProfile>Profile259</TargetFrameworkProfile>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{786C830F-07A1-408B-BD7F-6EE04809D6DB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <NuGetPackageImportStamp>
@@ -173,6 +173,35 @@
     <Compile Include="GolfNow.Api\Utilities\CustomerTokenStore.cs" />
     <Compile Include="ApiService\GolfNowApiService.cs" />
     <Compile Include="GolfNow.Mobile.Models\IMobileGolfNowAPI.cs" />
+    <Compile Include="GolfNow.Mobile.Models\Enumerations\CartPreferred.cs" />
+    <Compile Include="GolfNow.Mobile.Models\Enumerations\CustomerEligibilityStatus.cs" />
+    <Compile Include="GolfNow.Mobile.Models\Enumerations\CustomerSubscriptionListType.cs" />
+    <Compile Include="GolfNow.Mobile.Models\Enumerations\CustomerSubscriptionStatus.cs" />
+    <Compile Include="GolfNow.Mobile.Models\Enumerations\Gender.cs" />
+    <Compile Include="GolfNow.Mobile.Models\Enumerations\LanguagePreferences.cs" />
+    <Compile Include="GolfNow.Mobile.Models\Enumerations\OverrideType.cs" />
+    <Compile Include="GolfNow.Mobile.Models\Enumerations\PlayerRule.cs" />
+    <Compile Include="GolfNow.Mobile.Models\Enumerations\ReservationMetadataType.cs" />
+    <Compile Include="GolfNow.Mobile.Models\Enumerations\ReservationStatus.cs" />
+    <Compile Include="GolfNow.Mobile.Models\Enumerations\TimeRange.cs" />
+    <Compile Include="GolfNow.Mobile.Models\Enumerations\UserExperienceLevel.cs" />
+    <Compile Include="GolfNow.Mobile.Models\Enumerations\UserType.cs" />
+    <Compile Include="GolfNow.Mobile.Models\Enumerations\WeekDay.cs" />
+    <Compile Include="GolfNow.Mobile.Models\WebFaults\ErrorCode.cs" />
+    <Compile Include="GolfNow.Mobile.Models\WebFaults\ErrorCodeAttribute.cs" />
+    <Compile Include="GolfNow.Mobile.Models\WebFaults\LegacyWebFault.cs" />
+    <Compile Include="GolfNow.Mobile.Models\WebFaults\Raise.cs" />
+    <Compile Include="GolfNow.Mobile.Models\WebFaults\SimpleWebFault.cs" />
+    <Compile Include="GoogleModels\DetailsResponseObject.cs" />
+    <Compile Include="GoogleModels\PlacesResponseObject.cs" />
+    <Compile Include="GolfNow.Mobile.Models\Extensions.cs" />
+    <Compile Include="GolfNow.Mobile.Models\IClientCredentials.cs" />
+    <Compile Include="GolfNow.Mobile.Models\ICustomerAuthorizationAttribute.cs" />
+    <Compile Include="GolfNow.Mobile.Models\XSSIntrusionPreventionIgnoreAttribute.cs" />
+    <Compile Include="GolfNow.Mobile.Models\AbstractJsonConverter.cs" />
+    <Compile Include="AsyncErrorHandler.cs" />
+    <Compile Include="GolfNowAPIAuthenticationHandler.cs" />
+    <Compile Include="ExceptionService.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
@@ -187,29 +216,8 @@
     <Reference Include="Xamarin.Forms.Xaml">
       <HintPath>..\..\packages\Xamarin.Forms.2.1.0.6529\lib\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.Xaml.dll</HintPath>
     </Reference>
-    <Reference Include="ModernHttpClient">
-      <HintPath>..\..\packages\modernhttpclient.2.4.2\lib\Portable-Net45+WinRT45+WP8+WPA81\ModernHttpClient.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Reactive.Interfaces">
-      <HintPath>..\..\packages\Rx-Interfaces.2.2.5\lib\portable-net45+winrt45+wp8+wpa81\System.Reactive.Interfaces.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Reactive.Core">
-      <HintPath>..\..\packages\Rx-Core.2.2.5\lib\portable-net45+winrt45+wp8+wpa81\System.Reactive.Core.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Reactive.Linq">
-      <HintPath>..\..\packages\Rx-Linq.2.2.5\lib\portable-net45+winrt45+wp8+wpa81\System.Reactive.Linq.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Reactive.PlatformServices">
-      <HintPath>..\..\packages\Rx-PlatformServices.2.2.5\lib\portable-net45+winrt45+wp8+wpa81\System.Reactive.PlatformServices.dll</HintPath>
-    </Reference>
     <Reference Include="Fusillade">
       <HintPath>..\..\packages\fusillade.0.6.0\lib\Portable-net45+win+wpa81+wp80\Fusillade.dll</HintPath>
-    </Reference>
-    <Reference Include="Refit">
-      <HintPath>..\..\packages\refit.2.4.1\lib\Portable-Net45+NetCore45+WP8+WPA81\Refit.dll</HintPath>
-    </Reference>
-    <Reference Include="Akavache">
-      <HintPath>..\..\packages\akavache.core.4.1.2\lib\Portable-Net45+Win8+WP8+Wpa81\Akavache.dll</HintPath>
     </Reference>
     <Reference Include="OAMobileServices.Mobile">
       <HintPath>..\..\packages\net.openarc.mobileservices.0.0.7\lib\OAMobileServices.Mobile.dll</HintPath>
@@ -217,30 +225,51 @@
     <Reference Include="Validation">
       <HintPath>..\..\packages\Validation.2.2.8\lib\portable-net40+sl50+win+wpa81+wp80+MonoAndroid10+xamarinios10+MonoTouch10\Validation.dll</HintPath>
     </Reference>
-    <Reference Include="PInvoke.Windows.Core">
-      <HintPath>..\..\packages\PInvoke.Windows.Core.0.3.2\lib\portable-net45+win+wpa81+MonoAndroid10+xamarinios10+MonoTouch10\PInvoke.Windows.Core.dll</HintPath>
-    </Reference>
-    <Reference Include="PInvoke.Kernel32">
-      <HintPath>..\..\packages\PInvoke.Kernel32.0.3.2\lib\portable-net45+win+wpa81+MonoAndroid10+xamarinios10+MonoTouch10\PInvoke.Kernel32.dll</HintPath>
-    </Reference>
-    <Reference Include="PInvoke.BCrypt">
-      <HintPath>..\..\packages\PInvoke.BCrypt.0.3.2\lib\portable-net45+win+wpa81+MonoAndroid10+xamarinios10+MonoTouch10\PInvoke.BCrypt.dll</HintPath>
-    </Reference>
-    <Reference Include="PInvoke.NCrypt">
-      <HintPath>..\..\packages\PInvoke.NCrypt.0.3.2\lib\portable-net45+win+wpa81+MonoAndroid10+xamarinios10+MonoTouch10\PInvoke.NCrypt.dll</HintPath>
-    </Reference>
     <Reference Include="PCLCrypto">
       <HintPath>..\..\packages\PCLCrypto.2.0.147\lib\portable-net45+win+wpa81+wp80+MonoAndroid10+xamarinios10+MonoTouch10\PCLCrypto.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib" />
+    <Reference Include="Akavache">
+      <HintPath>..\..\packages\akavache.core.4.1.2\lib\Portable-Net45+Win8+WP8+Wpa81\Akavache.dll</HintPath>
+    </Reference>
+    <Reference Include="ModernHttpClient">
+      <HintPath>..\..\packages\modernhttpclient.2.4.2\lib\Portable-Net45+WinRT45+WP8+WPA81\ModernHttpClient.dll</HintPath>
+    </Reference>
     <Reference Include="Newtonsoft.Json">
       <HintPath>..\..\packages\Newtonsoft.Json.8.0.3\lib\portable-net45+wp80+win8+wpa81+dnxcore50\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reactive.Core">
+      <HintPath>..\..\packages\Rx-Core.2.2.5\lib\portable-net45+winrt45+wp8+wpa81\System.Reactive.Core.dll</HintPath>
     </Reference>
     <Reference Include="Punchclock">
       <HintPath>..\..\packages\Punchclock.1.2.0\lib\Portable-net45+win+wpa81+wp80\Punchclock.dll</HintPath>
     </Reference>
+    <Reference Include="Refit">
+      <HintPath>..\..\packages\refit.2.4.1\lib\Portable-Net45+NetCore45+WP8+WPA81\Refit.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reactive.Interfaces">
+      <HintPath>..\..\packages\Rx-Interfaces.2.2.5\lib\portable-net45+winrt45+wp8+wpa81\System.Reactive.Interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reactive.Linq">
+      <HintPath>..\..\packages\Rx-Linq.2.2.5\lib\portable-net45+winrt45+wp8+wpa81\System.Reactive.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reactive.PlatformServices">
+      <HintPath>..\..\packages\Rx-PlatformServices.2.2.5\lib\portable-net45+winrt45+wp8+wpa81\System.Reactive.PlatformServices.dll</HintPath>
+    </Reference>
     <Reference Include="Splat">
       <HintPath>..\..\packages\Splat.1.6.2\lib\Portable-net45+win+wpa81+wp80\Splat.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http">
+      <HintPath>..\..\packages\Microsoft.Net.Http.2.2.29\lib\portable-net40+sl4+win8+wp71+wpa81\System.Net.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.Primitives">
+      <HintPath>..\..\packages\Microsoft.Net.Http.2.2.29\lib\portable-net40+sl4+win8+wp71+wpa81\System.Net.Http.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.Extensions">
+      <HintPath>..\..\packages\Microsoft.Net.Http.2.2.29\lib\portable-net40+sl4+win8+wp71+wpa81\System.Net.Http.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="bouncy_castle_hmac_sha_pcl">
+      <HintPath>..\..\packages\BouncyCastle-PCL.1.0.0.6\lib\bouncy_castle_hmac_sha_pcl.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -288,6 +317,7 @@
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
   <Import Project="..\..\packages\Xamarin.Forms.2.1.0.6529\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.targets" Condition="Exists('..\..\packages\Xamarin.Forms.2.1.0.6529\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.targets')" />
   <Import Project="..\..\packages\refit.2.4.1\build\portable-net45+netcore45+wp8+wpa81+monoandroid+xamarin.ios10\refit.targets" Condition="Exists('..\..\packages\refit.2.4.1\build\portable-net45+netcore45+wp8+wpa81+monoandroid+xamarin.ios10\refit.targets')" />
+  <Import Project="..\..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets" Condition="Exists('..\..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets')" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">

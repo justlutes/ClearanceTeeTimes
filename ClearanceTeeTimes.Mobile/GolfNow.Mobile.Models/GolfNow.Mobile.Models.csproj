@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectTypeGuids>{786C830F-07A1-408B-BD7F-6EE04809D6DB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <ProjectGuid>{8F1F6221-01C8-44B6-B6CA-EB2AF5FFC437}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>GolfNow.Mobile.Models</RootNamespace>
+    <AssemblyName>GolfNow.Mobile.Models</AssemblyName>
+    <TargetFrameworkProfile>Profile111</TargetFrameworkProfile>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="DataContracts\AccountBalanceRemaining.cs" />
+    <Compile Include="DataContracts\AccountCredit.cs" />
+    <Compile Include="DataContracts\Address.cs" />
+    <Compile Include="DataContracts\Affiliate.cs" />
+    <Compile Include="DataContracts\AffiliatePayment.cs" />
+    <Compile Include="DataContracts\AmazonPayment.cs" />
+    <Compile Include="DataContracts\AreaSearchItem.cs" />
+    <Compile Include="DataContracts\AreaSearchResult.cs" />
+    <Compile Include="DataContracts\ChannelSettings.cs" />
+    <Compile Include="DataContracts\CharitableDonation.cs" />
+    <Compile Include="DataContracts\Charity.cs" />
+    <Compile Include="DataContracts\City.cs" />
+    <Compile Include="DataContracts\ConfirmationEmailRequest.cs" />
+    <Compile Include="DataContracts\Country.cs" />
+    <Compile Include="DataContracts\CouponInfo.cs" />
+    <Compile Include="DataContracts\CourseStatistics.cs" />
+    <Compile Include="DataContracts\CreditCardPayment.cs" />
+    <Compile Include="DataContracts\CreditCardPaymentOption.cs" />
+    <Compile Include="DataContracts\CustomerCredentials.cs" />
+    <Compile Include="DataContracts\CustomerEligibility.cs" />
+    <Compile Include="DataContracts\CustomerProfile.cs" />
+    <Compile Include="DataContracts\CustomerProfileNew.cs" />
+    <Compile Include="DataContracts\CustomerProfileResponse.cs" />
+    <Compile Include="DataContracts\CustomerSubscription.cs" />
+    <Compile Include="DataContracts\CustomerSubscriptionList.cs" />
+    <Compile Include="DataContracts\CustomerSubscriptionProfile.cs" />
+    <Compile Include="DataContracts\Discount.cs" />
+    <Compile Include="DataContracts\DocumentationReviewRequest.cs" />
+    <Compile Include="DataContracts\DocumentationReviewRequestResult.cs" />
+    <Compile Include="DataContracts\EligibilityReviewDocument.cs" />
+    <Compile Include="DataContracts\EmailPreferences.cs" />
+    <Compile Include="DataContracts\ExpandRequest.cs" />
+    <Compile Include="DataContracts\ExpandSetting.cs" />
+    <Compile Include="DataContracts\Expandable.cs" />
+    <Compile Include="DataContracts\Facility.cs" />
+    <Compile Include="DataContracts\FacilityDetail.cs" />
+    <Compile Include="DataContracts\FacilityNote.cs" />
+    <Compile Include="DataContracts\FacilityRate.cs" />
+    <Compile Include="DataContracts\FacilitySearchItem.cs" />
+    <Compile Include="DataContracts\FacilitySearchResult.cs" />
+    <Compile Include="DataContracts\FacilitySummaryCollection.cs" />
+    <Compile Include="DataContracts\FacilitySummaryListItem.cs" />
+    <Compile Include="DataContracts\FacilitySummaryTeeTime.cs" />
+    <Compile Include="DataContracts\FaultContract.cs" />
+    <Compile Include="DataContracts\ForwardConfirmationRequest.cs" />
+    <Compile Include="DataContracts\ForwardMultipleConfirmationRequest.cs" />
+    <Compile Include="DataContracts\GeographicInformation.cs" />
+    <Compile Include="DataContracts\GiftCardPaymentOption.cs" />
+    <Compile Include="DataContracts\GolfBuddy.cs" />
+    <Compile Include="DataContracts\GolfBuddyDetails.cs" />
+    <Compile Include="DataContracts\GreensFeeOverride.cs" />
+    <Compile Include="DataContracts\GuestCredentials.cs" />
+    <Compile Include="DataContracts\GuestInfo.cs" />
+    <Compile Include="DataContracts\LoyaltyStatus.cs" />
+    <Compile Include="DataContracts\Market.cs" />
+    <Compile Include="DataContracts\MasterCourse.cs" />
+    <Compile Include="DataContracts\MasterCourseCompositeLookup.cs" />
+    <Compile Include="DataContracts\MasterCourseStageResult.cs" />
+    <Compile Include="DataContracts\MasterCourseUpdates.cs" />
+    <Compile Include="DataContracts\Money.cs" />
+    <Compile Include="DataContracts\PasswordChangeRequest.cs" />
+    <Compile Include="DataContracts\PasswordPolicyRegex.cs" />
+    <Compile Include="DataContracts\PaymentInfo.cs" />
+    <Compile Include="DataContracts\PaymentOptionBase.cs" />
+    <Compile Include="DataContracts\PaymentType.cs" />
+    <Compile Include="DataContracts\PreferredTeeTimeRange.cs" />
+    <Compile Include="DataContracts\PromoCode.cs" />
+    <Compile Include="DataContracts\PromoCodeCollection.cs" />
+    <Compile Include="DataContracts\PromoCodeInfo.cs" />
+    <Compile Include="DataContracts\Purchase.cs" />
+    <Compile Include="DataContracts\PurchaseDetails.cs" />
+    <Compile Include="DataContracts\PurchaseStatus.cs" />
+    <Compile Include="DataContracts\RateOverride.cs" />
+    <Compile Include="DataContracts\RateOverrideTeeTimeInvoice.cs" />
+    <Compile Include="DataContracts\RateTag.cs" />
+    <Compile Include="DataContracts\RatingSummary.cs" />
+    <Compile Include="DataContracts\ResendConfirmationRequest.cs" />
+    <Compile Include="DataContracts\ResendMultipleConfirmationRequest.cs" />
+    <Compile Include="DataContracts\ReservationClaim.cs" />
+    <Compile Include="DataContracts\ReservationConfirmation.cs" />
+    <Compile Include="DataContracts\ReservationConfirmationCollection.cs" />
+    <Compile Include="DataContracts\ReservationConfirmationDetail.cs" />
+    <Compile Include="DataContracts\ReservationDetail.cs" />
+    <Compile Include="DataContracts\ReservationMetadata.cs" />
+    <Compile Include="DataContracts\ResetPasswordTokenRequest.cs" />
+    <Compile Include="DataContracts\Review.cs" />
+    <Compile Include="DataContracts\ReviewCollection.cs" />
+    <Compile Include="DataContracts\Rewards.cs" />
+    <Compile Include="DataContracts\RewardsTiers.cs" />
+    <Compile Include="DataContracts\SavedCreditCardInfo.cs" />
+    <Compile Include="DataContracts\SavedCreditCardPayment.cs" />
+    <Compile Include="DataContracts\SavedPaymentInfo.cs" />
+    <Compile Include="DataContracts\SendForgotPasswordEmailRequest.cs" />
+    <Compile Include="DataContracts\StateProvince.cs" />
+    <Compile Include="DataContracts\Subratings.cs" />
+    <Compile Include="DataContracts\Subscription.cs" />
+    <Compile Include="DataContracts\TeeTime.cs" />
+    <Compile Include="DataContracts\TeeTimeBatchLookupRequest.cs" />
+    <Compile Include="DataContracts\TeeTimeCollection.cs" />
+    <Compile Include="DataContracts\TeeTimeInvoice.cs" />
+    <Compile Include="DataContracts\TeeTimePrice.cs" />
+    <Compile Include="DataContracts\TeeTimeRate.cs" />
+    <Compile Include="DataContracts\TeeTimeRateset.cs" />
+    <Compile Include="DataContracts\TopDeal.cs" />
+    <Compile Include="DataContracts\TopDealsResponse.cs" />
+    <Compile Include="DataContracts\TransactionFeeAlterationOverride.cs" />
+    <Compile Include="DataContracts\TransactionFeeOverride.cs" />
+    <Compile Include="DataContracts\TransactionFeeWaiveOverride.cs" />
+    <Compile Include="DataContracts\UserInfo.cs" />
+    <Compile Include="DataContracts\ValidateTokenRequest.cs" />
+    <Compile Include="DataContracts\Wallet.cs" />
+    <Compile Include="DataContracts\WeatherForcast.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
+</Project>

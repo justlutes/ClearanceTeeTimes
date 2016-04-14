@@ -1,9 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Runtime.Serialization;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace GolfNow.Mobile.Models.DataContracts
 {
@@ -35,7 +31,7 @@ namespace GolfNow.Mobile.Models.DataContracts
             {
                 if (PaymentTimeStamp.HasValue)
                 {
-                    return this.PaymentTimeStamp.Value.ToFormattedString();
+                    return this.PaymentTimeStamp.Value.ToString("yyyy-MM-ddTHH:mm:ss");
                 }
                 else
                 {

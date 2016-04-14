@@ -1,8 +1,6 @@
 using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Runtime.Serialization;
-using System.Text;
+using GolfNow.Mobile.Models.Enumerations;
 
 namespace GolfNow.Mobile.Models.DataContracts
 {
@@ -73,22 +71,22 @@ namespace GolfNow.Mobile.Models.DataContracts
         /// <remarks>
         /// If date is not specified in local time, it is converted to UTC.
         /// </remarks>
-		[IgnoreDataMember]
-		public DateTime? DateOfBirth
-		{
-			get;
-			set;
-		}
+        [IgnoreDataMember]
+        public DateTime? DateOfBirth
+        {
+            get;
+            set;
+        }
 
-		/// <summary>
-		/// The formatted date of birth, for serialization purposes
-		/// </summary>
-		[DataMember(Name = "DateOfBirth")]
-		private string DateOfBirthFormatted
-		{
-			get;
-			set;
-		}
+        /// <summary>
+        /// The formatted date of birth, for serialization purposes
+        /// </summary>
+        [DataMember(Name = "DateOfBirth")]
+        private string DateOfBirthFormatted
+        {
+            get;
+            set;
+        }
 
         /// <summary>
         /// Gets or sets the customer's phone number.
@@ -121,7 +119,7 @@ namespace GolfNow.Mobile.Models.DataContracts
             }
             set
             {
-                Level = value.HasValue ? value.Value.ConvertIntToEnum<UserExperienceLevel>("Level") : (UserExperienceLevel?)null;
+                Level = value.HasValue ? (UserExperienceLevel?)value.Value : (UserExperienceLevel?)null;
             }
         }
 
@@ -144,21 +142,37 @@ namespace GolfNow.Mobile.Models.DataContracts
             set;
         }
 
+
+
         /// <summary>
         /// Gets or sets the integer value of Type used for serialization.
         /// </summary>
-        [DataMember(Name = "Type")]
-        private int[] TypeInt
-        {
-            get
-            {
-                return Array.ConvertAll<UserType, int>(Type ?? new UserType[] {}, a => (int)a);
-            }
-            set
-            {
-                Type = Array.ConvertAll<int, UserType>(value ?? new int[] { }, a => (UserType)a.ConvertIntToEnum<UserType>("Type"));
-            }
-        }
+        //[DataMember(Name = "Type")]
+        //private int[] TypeInt
+        //{
+        //    get
+        //    {
+
+        //        if (Type != null)
+        //        {
+
+        //            foreach (UserType a in Type)
+        //            {
+
+
+
+        //            }
+
+        //        }
+        //        return
+
+        //            Array.ConvertAll<UserType, int>(Type ?? new UserType[] { }, a => (int)a);
+        //    }
+        //    set
+        //    {
+        //        Type = Array.ConvertAll<int, UserType>(value ?? new int[] { }, a => (UserType)a.ConvertIntToEnum<UserType>("Type"));
+        //    }
+        //}
 
 
         /// <summary>
@@ -192,7 +206,7 @@ namespace GolfNow.Mobile.Models.DataContracts
             }
             set
             {
-                CartPreferred = value.HasValue ? value.Value.ConvertIntToEnum<CartPreferred>("CartPreferred") : (CartPreferred?)null;
+                CartPreferred = value.HasValue ? (CartPreferred?)value.Value : (CartPreferred?)null;
             }
         }
 
@@ -317,18 +331,6 @@ namespace GolfNow.Mobile.Models.DataContracts
         }
 
         /// <summary>
-        /// A value indicating whether or not the customer has opted-out of military verification.
-        /// </summary>
-        [DataMember]
-        public bool? MilitaryVerificationOptOut { get; set; }
-
-        /// <summary>
-        /// A new entry for the customer's facility notes.
-        /// </summary>
-        [DataMember]
-        public FacilityNote NewFacilityNoteEntry { get; set; }
-
-        /// <summary>
         /// Gets or sets the customer's gender.
         /// </summary>
         public Gender? Gender
@@ -349,30 +351,30 @@ namespace GolfNow.Mobile.Models.DataContracts
             }
             set
             {
-                Gender = value.HasValue ? value.Value.ConvertIntToEnum<Gender>("Gender") : (Gender?)null;
+                Gender = value.HasValue ? (Gender?)value.Value : (Gender?)null;
             }
         }
 
-		/// <summary>
-		/// Formats the date of birth for serialization
-		/// </summary>
-		[OnSerializing]
-		private void OnSerializing(StreamingContext context)
-		{
-			if (this.DateOfBirth.HasValue && this.DateOfBirth.Value != DateTime.MinValue)
-			{
-				this.DateOfBirthFormatted = this.DateOfBirth.Value.ToFormattedString();
-			}
-		}
+        /// <summary>
+        /// Formats the date of birth for serialization
+        /// </summary>
+        [OnSerializing]
+        private void OnSerializing(StreamingContext context)
+        {
+            if (this.DateOfBirth.HasValue && this.DateOfBirth.Value != DateTime.MinValue)
+            {
+                this.DateOfBirthFormatted = this.DateOfBirth.Value.ToString("yyyy-MM-ddTHH:mm:ss");
+            }
+        }
 
-		/// <summary>
-		/// Gets the date of birth from the string property and sets the date property after deserialization
-		/// </summary>
-		[OnDeserialized]
-		void OnDeserialized(StreamingContext context)
-		{
-			this.DateOfBirth = this.DateOfBirthFormatted.ToDateTime();
-		}
+        /// <summary>
+        /// Gets the date of birth from the string property and sets the date property after deserialization
+        /// </summary>
+        [OnDeserialized]
+        void OnDeserialized(StreamingContext context)
+        {
+            this.DateOfBirth = this.DateOfBirthFormatted.ToDateTime();
+        }
 
         public CustomerProfile Clone()
         {
@@ -401,8 +403,7 @@ namespace GolfNow.Mobile.Models.DataContracts
                 Type = this.Type,
                 ShoeSize = this.ShoeSize,
                 UserName = this.UserName,
-                Woods = this.Woods,
-                MilitaryVerificationOptOut =  this.MilitaryVerificationOptOut
+                Woods = this.Woods
             };
         }
     }

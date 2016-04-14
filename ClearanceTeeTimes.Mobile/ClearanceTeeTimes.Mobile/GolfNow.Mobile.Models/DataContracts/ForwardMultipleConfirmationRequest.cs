@@ -1,4 +1,5 @@
 ﻿using System.Runtime.Serialization;
+using GolfNow.Mobile.Core.Models;
 
 namespace GolfNow.Mobile.Models.DataContracts
 {

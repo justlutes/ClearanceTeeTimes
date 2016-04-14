@@ -1,8 +1,5 @@
-﻿using System.Collections.Generic;
-using System.Linq;
-using System.Runtime.Serialization;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Runtime.Serialization;
+using GolfNow.Mobile.Models.Enumerations;
 
 namespace GolfNow.Mobile.Models.DataContracts
 {
@@ -39,7 +36,7 @@ namespace GolfNow.Mobile.Models.DataContracts
             }
             set
             {
-                DayOfWeek = value.ConvertIntToEnum<WeekDay>("DayOfWeek");
+                DayOfWeek = (WeekDay)value;
             }
         }
 
@@ -65,7 +62,7 @@ namespace GolfNow.Mobile.Models.DataContracts
             }
             set
             {
-                TimeRange = value.ConvertIntToEnum<TimeRange>("TimeRange");
+                TimeRange = (TimeRange)value;
             }
         }
 

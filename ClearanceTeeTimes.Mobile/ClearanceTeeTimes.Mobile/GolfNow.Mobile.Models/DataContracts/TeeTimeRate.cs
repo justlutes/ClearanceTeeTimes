@@ -4,6 +4,7 @@ using System.Linq;
 using System.Runtime.Serialization;
 using System.Text;
 using System.Threading.Tasks;
+using GolfNow.Mobile.Models.Enumerations;
 
 namespace GolfNow.Mobile.Models.DataContracts
 {
@@ -70,15 +71,15 @@ namespace GolfNow.Mobile.Models.DataContracts
             set;
         }
 
-		/// <summary>
-		/// A list of discounts applied to the tee time rate
-		/// </summary>
-		[DataMember]
-		public Discount[] DiscountsApplied
-		{
-			get;
-			set;
-		}
+        /// <summary>
+        /// A list of discounts applied to the tee time rate
+        /// </summary>
+        [DataMember]
+        public Discount[] DiscountsApplied
+        {
+            get;
+            set;
+        }
 
         /// <summary>
         /// Gets or sets a bitwise representation of the player rule describing the number of players allowed to book this tee 

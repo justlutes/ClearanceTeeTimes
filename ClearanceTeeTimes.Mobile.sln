@@ -23,6 +23,7 @@ Global
 		Release|Any CPU = Release|Any CPU
 		Release|iPhone = Release|iPhone
 		Release|iPhoneSimulator = Release|iPhoneSimulator
+		ReleaseQAIOs|iPhone = ReleaseQAIOs|iPhone
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{0027BE14-AA22-4424-A8B9-FFB4695C16C1}.Ad-Hoc|Any CPU.ActiveCfg = Release|Any CPU
@@ -61,6 +62,8 @@ Global
 		{0027BE14-AA22-4424-A8B9-FFB4695C16C1}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
 		{0027BE14-AA22-4424-A8B9-FFB4695C16C1}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
 		{0027BE14-AA22-4424-A8B9-FFB4695C16C1}.Release|iPhoneSimulator.Deploy.0 = Release|Any CPU
+		{0027BE14-AA22-4424-A8B9-FFB4695C16C1}.ReleaseQAIOs|iPhone.ActiveCfg = Debug|Any CPU
+		{0027BE14-AA22-4424-A8B9-FFB4695C16C1}.ReleaseQAIOs|iPhone.Build.0 = Debug|Any CPU
 		{A2B1A3D6-7C1F-4C89-A28F-00EE2E0255CC}.Ad-Hoc|Any CPU.ActiveCfg = Release|Any CPU
 		{A2B1A3D6-7C1F-4C89-A28F-00EE2E0255CC}.Ad-Hoc|Any CPU.Build.0 = Release|Any CPU
 		{A2B1A3D6-7C1F-4C89-A28F-00EE2E0255CC}.Ad-Hoc|iPhone.ActiveCfg = Release|Any CPU
@@ -85,6 +88,8 @@ Global
 		{A2B1A3D6-7C1F-4C89-A28F-00EE2E0255CC}.Release|iPhone.Build.0 = Release|Any CPU
 		{A2B1A3D6-7C1F-4C89-A28F-00EE2E0255CC}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
 		{A2B1A3D6-7C1F-4C89-A28F-00EE2E0255CC}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{A2B1A3D6-7C1F-4C89-A28F-00EE2E0255CC}.ReleaseQAIOs|iPhone.ActiveCfg = Debug|Any CPU
+		{A2B1A3D6-7C1F-4C89-A28F-00EE2E0255CC}.ReleaseQAIOs|iPhone.Build.0 = Debug|Any CPU
 		{A9A424A2-C615-4DBD-B718-7FF4D0B9155C}.Ad-Hoc|Any CPU.ActiveCfg = Ad-Hoc|iPhone
 		{A9A424A2-C615-4DBD-B718-7FF4D0B9155C}.Ad-Hoc|iPhone.ActiveCfg = Ad-Hoc|iPhone
 		{A9A424A2-C615-4DBD-B718-7FF4D0B9155C}.Ad-Hoc|iPhone.Build.0 = Ad-Hoc|iPhone
@@ -105,6 +110,8 @@ Global
 		{A9A424A2-C615-4DBD-B718-7FF4D0B9155C}.Release|iPhone.Build.0 = Release|iPhone
 		{A9A424A2-C615-4DBD-B718-7FF4D0B9155C}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
 		{A9A424A2-C615-4DBD-B718-7FF4D0B9155C}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+		{A9A424A2-C615-4DBD-B718-7FF4D0B9155C}.ReleaseQAIOs|iPhone.ActiveCfg = Debug|iPhone
+		{A9A424A2-C615-4DBD-B718-7FF4D0B9155C}.ReleaseQAIOs|iPhone.Build.0 = Debug|iPhone
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

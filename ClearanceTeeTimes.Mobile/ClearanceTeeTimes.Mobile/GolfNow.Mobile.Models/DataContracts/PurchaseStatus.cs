@@ -11,16 +11,17 @@ namespace GolfNow.Mobile.Models.DataContracts
     public class PurchaseStatus
     {
         private static readonly string[] AcceptedDateTimeFormats =
-        {
-            // ISO 8601 'basic' format
-            "yyyyMMddTHHmm",
+            {
+                // ISO 8601 'basic' format
+                "yyyyMMddTHHmm",
 
-            // .NET 'sortable' format (this is the legacy format)
-            "s"
-        };
+                // .NET 'sortable' format (this is the legacy format)
+                "s"
+            };
 
         [DataMember(Name = "ExpirationDate")]
         private string _expirationDate;
+
         /// <summary>
         /// The expiration date in the 'basic' ISO 8601 format.  This date/time is in UTC.
         /// </summary>
@@ -44,7 +45,7 @@ namespace GolfNow.Mobile.Models.DataContracts
                 }
                 catch (FormatException)
                 {
-                    Raise.RaiseNow(ErrorCode.UnableToParseDate, "ExpirationDate is not in the correct format.");
+                    //  Raise.RaiseNow(ErrorCode.UnableToParseDate, "ExpirationDate is not in the correct format.");
 
                     throw;
                 }
@@ -58,7 +59,7 @@ namespace GolfNow.Mobile.Models.DataContracts
         public override bool Equals(object obj)
         {
             var purchaseStatus = obj as PurchaseStatus;
-            
+
             if (purchaseStatus == null)
             {
                 return false;

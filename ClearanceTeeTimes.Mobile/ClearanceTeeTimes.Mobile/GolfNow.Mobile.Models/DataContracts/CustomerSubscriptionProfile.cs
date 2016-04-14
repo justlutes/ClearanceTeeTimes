@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Runtime.Serialization;
+using GolfNow.Mobile.Models.Enumerations;
 
 namespace GolfNow.Mobile.Models.DataContracts
 {
@@ -59,10 +60,10 @@ namespace GolfNow.Mobile.Models.DataContracts
         {
             return
                 (Subscriptions != null && Subscriptions.Length > 0) ||
-                IsSubscribedToRewards != null ||
-                IsSubscribedToPartners != null ||
-                LanguagePreference != null ||
-                UseHtmlAndGraphics != null;
+            IsSubscribedToRewards != null ||
+            IsSubscribedToPartners != null ||
+            LanguagePreference != null ||
+            UseHtmlAndGraphics != null;
         }
 
         public CustomerSubscriptionProfile Clone()
@@ -71,14 +72,14 @@ namespace GolfNow.Mobile.Models.DataContracts
             {
                 Subscriptions = this.Subscriptions.Select(s =>
                                     new Subscription
-                                    {
-                                        Type = s.Type,
-                                        SubscriptionListID = s.SubscriptionListID,
-                                        ListName = s.ListName,
-                                        IsSubscribed = s.IsSubscribed,
-                                        IsPassive = s.IsPassive
-                                    }
-                                ).ToArray(),
+                    {
+                        Type = s.Type,
+                        SubscriptionListID = s.SubscriptionListID,
+                        ListName = s.ListName,
+                        IsSubscribed = s.IsSubscribed,
+                        IsPassive = s.IsPassive
+                    }
+                ).ToArray(),
                 IsSubscribedToPartners = this.IsSubscribedToPartners,
                 IsSubscribedToRewards = this.IsSubscribedToRewards,
                 UseHtmlAndGraphics = this.UseHtmlAndGraphics,

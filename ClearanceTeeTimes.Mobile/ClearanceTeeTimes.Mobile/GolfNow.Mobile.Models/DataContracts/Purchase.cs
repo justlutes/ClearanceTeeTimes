@@ -4,7 +4,7 @@
     using System.Globalization;
     using System.Runtime.Serialization;
 
-    using GolfNow.API.Contracts.WebFaults;
+    //    using GolfNow.API.Contracts.WebFaults;
 
     /// <summary>
     /// Represents purchase data supplied by the client.
@@ -13,13 +13,13 @@
     public class Purchase
     {
         private static readonly string[] AcceptedDateTimeFormats =
-        {
-            // ISO 8601 'basic' format
-            "yyyyMMddTHHmm",
+            {
+                // ISO 8601 'basic' format
+                "yyyyMMddTHHmm",
 
-            // .NET 'sortable' format (this is the legacy format)
-            "s"
-        };
+                // .NET 'sortable' format (this is the legacy format)
+                "s"
+            };
 
         /// <summary>
         /// The customer email address.
@@ -36,6 +36,7 @@
 
         [DataMember(Name = "PurchaseDate")] 
         private string _purchaseDate;
+
         /// <summary>
         /// The purchase date in the 'basic' ISO 8601 format.  This date/time is in UTC.
         /// </summary>
@@ -59,7 +60,7 @@
                 }
                 catch (FormatException)
                 {
-                    Raise.RaiseNow(ErrorCode.InvalidPurchaseDateSpecified, "PurchaseDate is not in the correct format.");
+//                    Raise.RaiseNow(ErrorCode.InvalidPurchaseDateSpecified, "PurchaseDate is not in the correct format.");
 
                     throw;
                 }
@@ -72,6 +73,7 @@
 
         [DataMember(Name = "ExpirationDate")] 
         private string _expirationDate;
+
         /// <summary>
         /// Optional value that, when used in a POST body, allows the client to set the expiration date of the purchase.  In the
         /// DEV environment, the date can be set to a time in the past.  If not set, a default of 1 year after the expiration of 
@@ -102,7 +104,7 @@
                 }
                 catch (FormatException)
                 {
-                    Raise.RaiseNow(ErrorCode.UnableToParseDate, "ExpirationDate is not in the correct format.");
+//                    Raise.RaiseNow(ErrorCode.UnableToParseDate, "ExpirationDate is not in the correct format.");
 
                     throw;
                 }

@@ -1,9 +1,25 @@
-﻿<Properties StartupItem="ClearanceTeeTimes.Mobile\ClearanceTeeTimes.Mobile.Droid\ClearanceTeeTimes.Mobile.Droid.csproj" RefactoringSettings.EnableRefactorings="True">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.Nexus 5 (KitKat)" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="ClearanceTeeTimes.Mobile\ClearanceTeeTimes.Mobile\GolfNow.Api\Utilities\Authorization.cs">
+﻿<Properties StartupItem="ClearanceTeeTimes.Mobile/ClearanceTeeTimes.Mobile.Droid/ClearanceTeeTimes.Mobile.Droid.csproj" RefactoringSettings.EnableRefactorings="True">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.Nexus 10 (KitKat)" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="ClearanceTeeTimes.Mobile/ClearanceTeeTimes.Mobile/GolfNow.Api/Utilities/Authorization.cs">
     <Files>
-      <File FileName="ClearanceTeeTimes.Mobile\ClearanceTeeTimes.Mobile\GolfNow.Api\Utilities\Authorization.cs" Line="4" Column="23" />
+      <File FileName="ClearanceTeeTimes.Mobile/ClearanceTeeTimes.Mobile/GolfNow.Mobile.Models/DataContracts/Purchase.cs" Line="7" Column="25" />
+      <File FileName="ClearanceTeeTimes.Mobile/ClearanceTeeTimes.Mobile/GolfNow.Mobile.Models/DataContracts/CouponInfo.cs" Line="36" Column="43" />
+      <File FileName="ClearanceTeeTimes.Mobile/GolfNow.Mobile.Models/DataContracts/AccountCredit.cs" Line="7" Column="28" />
+      <File FileName="ClearanceTeeTimes.Mobile/ClearanceTeeTimes.Mobile/GolfNow.Api/Utilities/Authorization.cs" Line="18" Column="50" />
     </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ClearanceTeeTimes.Mobile" expanded="True">
+            <Node name="ClearanceTeeTimes.Mobile" expanded="True" selected="True">
+              <Node name="GolfNow.Api" expanded="True">
+                <Node name="Utilities" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
