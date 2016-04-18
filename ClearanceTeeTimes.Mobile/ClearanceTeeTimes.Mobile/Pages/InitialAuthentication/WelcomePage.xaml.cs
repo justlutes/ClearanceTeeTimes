@@ -29,9 +29,4 @@ namespace ClearanceTeeTimes.Mobile.Pages.InitialAuthentication
 				//await Navigation.PushAsync (new UserRegisterInfo ()));
 		}
 	}
-
-	public class FacebookLoginButton : Button
-	{
-
-	}
 }
