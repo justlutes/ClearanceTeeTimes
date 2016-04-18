@@ -1,55 +1,30 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="ClearanceTeeTimes.Mobile.UserRegisterInfo">
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+				xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+				x:Class="ClearanceTeeTimes.Mobile.UserRegisterInfo"
+				Title="Register">
 	<ContentPage.Content>
+		<StackLayout VerticalOptions="StartAndExpand">
+			<Label Text = "First Name:" />
+			<Entry x:Name = "firstName" Placeholder = "First Name" />
 
-<Label Id="fNameLbl" Text="First Name:*" TextColor="White" BackgroundColor="Gray" Width="80%">
-Text = "First Name"
-</Label>
-<Entry x:Name="fNameEntryBox" Width="80%" Placeholder="First Name" BackgroundColor="White" PlaceholderColor="Gray">
+			<Label Text="Last Name:" />
+			<Entry x:Name="lastName" Placeholder="Last Name" />
 
-</Entry>
+			<Label Text="Sex:" />
+			<Entry x:Name="maleFemaleEntryBox" Placeholder="Sex" />
 
-<Label Id="lNameLbl" Text="Last Name:*" TextColor="White" BackgroundColor="Gray" Width="80%">
-Text = "Last Name"
-</Label>
-<Entry x:Name="lNameEntryBox" Width="80%" Placeholder="Last Name" BackgroundColor="White" PlaceholderColor="Gray">
+			<Label Text="City:" />
+			<Entry x:Name="cityEntryBox" Placeholder="City" />
 
-</Entry>
+			<Label Text="State:" />
+			<Entry x:Name="stateEntryBox" Placeholder="State" />
 
-<Label Id="maleFemaleLbl" Text="Sex:*" TextColor="White" BackgroundColor="Gray" Width="80%">
-Text = "M/F"
-</Label>
-<Entry x:Name="maleFemaleEntryBox" Width="80%" Placeholder="Sex" BackgroundColor="White" PlaceholderColor="Gray">
+			<Label Text="Zip Code:" />
+			<Entry x:Name="zipEntryBox" Placeholder="Zip Code" />
 
-</Entry>
-
-<Label Id="cityLbl" City="City:*" TextColor="White" BackgroundColor="Gray" Width="80%">
-Text = "City"
-</Label>
-<Entry x:Name="cityEntryBox" Width="80%" Placeholder="City" BackgroundColor="White" PlaceholderColor="Gray">
-
-</Entry>
-
-<Label Id="stateLbl" Text="State:*" TextColor="White" BackgroundColor="Gray" Width="80%">
-Text = "State"
-</Label>
-<Entry x:Name="stateEntryBox" Width="80%" Placeholder="State" BackgroundColor="White" PlaceholderColor="Gray">
-
-</Entry>
-
-<Label Id="zipCodeLbl" Text="Zip Code:*" TextColor="White" BackgroundColor="Gray" Width="80%">
-Text = "Zip Code"
-</Label>
-<Entry x:Name="zipEntryBox" Width="80%" Placeholder="Zip Code" BackgroundColor="White" PlaceholderColor="Gray">
-
-</Entry>
-
-<Label Id="emailLbl" Text="Email Address:" TextColor="White" BackgroundColor="Gray" Width="80%">
-Text = "Email"
-</Label>
-<Entry x:Name="emailEntryBox" Width="80%" Placeholder="Email" BackgroundColor="White" PlaceholderColor="Gray">
-
-</Entry>
-
+			<Label Text="Email Address:" />
+			<Entry x:Name="emailEntryBox" Placeholder="Email" />
+		</StackLayout>
 	</ContentPage.Content>
 </ContentPage>

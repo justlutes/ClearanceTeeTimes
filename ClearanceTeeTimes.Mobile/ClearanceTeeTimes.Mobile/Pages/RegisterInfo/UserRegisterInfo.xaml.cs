@@ -12,7 +12,8 @@ namespace ClearanceTeeTimes.Mobile
 			InitializeComponent ();
 		}
 
-		public string GetUserFirstName(string fName)
+
+/*		public string GetUserFirstName(string fName)
 		{
 			if (fNameEntryBox.Text == null) {
 				DisplayAlert ("Error", "First name cannot be empty! Please re-enter.", "Ok");
@@ -90,7 +91,6 @@ namespace ClearanceTeeTimes.Mobile
 			return email;
 		}
 
-
+*/
 	}
 }
-//ohhh i see//ok interesting ..

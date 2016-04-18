@@ -28,9 +28,9 @@ namespace ClearanceTeeTimes.Mobile.Pages.InitialAuthentication
 			//Command = new Command (async () => 
 				//await Navigation.PushAsync (new UserRegisterInfo ()));
 		} */
-        void OnRegister(object sender, EventArgs e)
+        async void OnRegister(object sender, EventArgs e)
         {
-            Navigation.PushAsync(new UserRegisterInfo());
+            await Navigation.PushAsync(new UserRegisterInfo());
         }
 	}
 }
