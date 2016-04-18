@@ -12,7 +12,8 @@ namespace ClearanceTeeTimes.Mobile
         public App()
         {
             // The root page of your application
-            MainPage = new Pages.InitialAuthentication.WelcomePage ();
+            // MainPage = new Pages.InitialAuthentication.WelcomePage ();
+            MainPage = new NavigationPage(new Pages.InitialAuthentication.WelcomePage());
         }
 
         protected override void OnStart()
