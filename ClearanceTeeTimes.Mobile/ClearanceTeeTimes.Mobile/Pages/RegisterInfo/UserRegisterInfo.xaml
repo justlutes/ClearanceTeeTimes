@@ -1,30 +1,25 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
-				xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
-				x:Class="ClearanceTeeTimes.Mobile.UserRegisterInfo"
-				Title="Register">
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="ClearanceTeeTimes.Mobile.UserRegisterInfo" Title="Register">
 	<ContentPage.Content>
-		<StackLayout VerticalOptions="StartAndExpand">
-			<Label Text = "First Name:" />
-			<Entry x:Name = "firstName" Placeholder = "First Name" />
-
-			<Label Text="Last Name:" />
-			<Entry x:Name="lastName" Placeholder="Last Name" />
-
-			<Label Text="Sex:" />
-			<Entry x:Name="maleFemaleEntryBox" Placeholder="Sex" />
-
-			<Label Text="City:" />
-			<Entry x:Name="cityEntryBox" Placeholder="City" />
-
-			<Label Text="State:" />
-			<Entry x:Name="stateEntryBox" Placeholder="State" />
-
-			<Label Text="Zip Code:" />
-			<Entry x:Name="zipEntryBox" Placeholder="Zip Code" />
-
-			<Label Text="Email Address:" />
-			<Entry x:Name="emailEntryBox" Placeholder="Email" />
-		</StackLayout>
+		<ScrollView>
+			<StackLayout VerticalOptions="StartAndExpand">
+				<Label Text="First Name:" />
+				<Entry x:Name="firstName" Placeholder="First Name" />
+				<Label Text="Last Name:" />
+				<Entry x:Name="lastName" Placeholder="Last Name" />
+				<Label Text="Sex:" />
+				<Entry x:Name="maleFemaleEntryBox" Placeholder="Sex" />
+				<Label Text="City:" />
+				<Entry x:Name="cityEntryBox" Placeholder="City" />
+				<Label Text="State:" />
+				<Entry x:Name="stateEntryBox" Placeholder="State" />
+				<Label Text="Zip Code:" />
+				<Entry x:Name="zipEntryBox" Placeholder="Zip Code" />
+				<Label Text="Email Address:" />
+				<Entry x:Name="emailEntryBox" Placeholder="Email" />
+				<Button Text = "Register" />
+				<Button Text = "Reset" />
+			</StackLayout>
+		</ScrollView>
 	</ContentPage.Content>
 </ContentPage>
