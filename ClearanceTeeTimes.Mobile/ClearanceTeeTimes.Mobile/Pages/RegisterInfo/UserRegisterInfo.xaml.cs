@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 
 using Xamarin.Forms;
+using System.Text.RegularExpressions;
 
 namespace ClearanceTeeTimes.Mobile
 {
@@ -26,7 +27,6 @@ namespace ClearanceTeeTimes.Mobile
 			zipEntryBox.Text = null;
 			cityEntryBox.Text = null;
 			stateEntryBox.Text = null;
-			birthDate.Text = null;
 			genderEntryBox.Text = null;
 		}
 	}

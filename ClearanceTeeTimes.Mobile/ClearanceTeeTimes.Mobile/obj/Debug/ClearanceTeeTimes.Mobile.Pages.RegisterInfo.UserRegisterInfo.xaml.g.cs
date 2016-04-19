@@ -53,7 +53,7 @@ namespace ClearanceTeeTimes.Mobile {
         private global::Xamarin.Forms.Entry stateEntryBox;
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
-        private global::Xamarin.Forms.Entry birthDate;
+        private global::Xamarin.Forms.DatePicker birthDate;
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private global::Xamarin.Forms.Entry genderEntryBox;
@@ -73,7 +73,7 @@ namespace ClearanceTeeTimes.Mobile {
             zipEntryBox = this.FindByName<global::Xamarin.Forms.Entry>("zipEntryBox");
             cityEntryBox = this.FindByName<global::Xamarin.Forms.Entry>("cityEntryBox");
             stateEntryBox = this.FindByName<global::Xamarin.Forms.Entry>("stateEntryBox");
-            birthDate = this.FindByName<global::Xamarin.Forms.Entry>("birthDate");
+            birthDate = this.FindByName<global::Xamarin.Forms.DatePicker>("birthDate");
             genderEntryBox = this.FindByName<global::Xamarin.Forms.Entry>("genderEntryBox");
         }
     }
