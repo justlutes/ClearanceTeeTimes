@@ -41,6 +41,8 @@ C:\Users\Kyle\GolfNow\ClearanceTeeTimes.Mobile\ClearanceTeeTimes.Mobile\obj\Debu
 C:\Users\Kyle\GolfNow\ClearanceTeeTimes.Mobile\ClearanceTeeTimes.Mobile\obj\Debug\ClearanceTeeTimes.Mobile.Pages.Timeline.UserTimeline.xaml.g.cs
 C:\Users\Kyle\GolfNow\ClearanceTeeTimes.Mobile\ClearanceTeeTimes.Mobile\obj\Debug\ClearanceTeeTimes.Mobile.dll
 C:\Users\Kyle\GolfNow\ClearanceTeeTimes.Mobile\ClearanceTeeTimes.Mobile\obj\Debug\ClearanceTeeTimes.Mobile.pdb
+C:\Users\Kyle\GolfNow\ClearanceTeeTimes.Mobile\ClearanceTeeTimes.Mobile\obj\Debug\ClearanceTeeTimes.Mobile.csprojResolveAssemblyReference.cache
+C:\Users\Kyle\GolfNow\ClearanceTeeTimes.Mobile\ClearanceTeeTimes.Mobile\obj\Debug\ClearanceTeeTimes.Mobile.Pages.Login.xaml.g.cs
 C:\Users\Kyle\GolfNow\ClearanceTeeTimes.Mobile\ClearanceTeeTimes.Mobile\obj\Debug\ClearanceTeeTimes.Mobile.dll.mdb
 C:\Users\Kyle\GolfNow\ClearanceTeeTimes.Mobile\ClearanceTeeTimes.Mobile\bin\Debug\ClearanceTeeTimes.Mobile.dll.mdb
 C:\Users\Kyle\GolfNow\ClearanceTeeTimes.Mobile\ClearanceTeeTimes.Mobile\obj\Debug\ClearanceTeeTimes.Mobile.dll.mdb

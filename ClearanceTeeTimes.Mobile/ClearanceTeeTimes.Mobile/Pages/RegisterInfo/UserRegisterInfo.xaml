@@ -3,22 +3,22 @@
 	<ContentPage.Content>
 		<ScrollView>
 			<StackLayout VerticalOptions="StartAndExpand">
-				<Label Text="First Name:" />
 				<Entry x:Name="firstName" Placeholder="First Name" />
-				<Label Text="Last Name:" />
 				<Entry x:Name="lastName" Placeholder="Last Name" />
-				<Label Text="Sex:" />
-				<Entry x:Name="maleFemaleEntryBox" Placeholder="Sex" />
-				<Label Text="City:" />
-				<Entry x:Name="cityEntryBox" Placeholder="City" />
-				<Label Text="State:" />
-				<Entry x:Name="stateEntryBox" Placeholder="State" />
-				<Label Text="Zip Code:" />
-				<Entry x:Name="zipEntryBox" Placeholder="Zip Code" />
-				<Label Text="Email Address:" />
 				<Entry x:Name="emailEntryBox" Placeholder="Email" />
+				<Entry x:Name="phoneNumber" Placeholder="Phone Number" />
+				<Entry x:Name="password" Placeholder="Password" IsPassword="true" />
+				<Entry x:Name="confirmPassword" Placeholder="Confirm Password" IsPassword="true" />
+				<Entry x:Name="address1" Placeholder="Address 1" />
+				<Entry x:Name="address2" Placeholder="Address 2(optional)" />
+				<Entry x:Name="country" Placeholder="Country" />
+				<Entry x:Name="zipEntryBox" Placeholder="Zip Code" />
+				<Entry x:Name="cityEntryBox" Placeholder="City" />
+				<Entry x:Name="stateEntryBox" Placeholder="State" />
+				<Entry x:Name="birthDate" Placeholder="Birth Date" />
+				<Entry x:Name="genderEntryBox" Placeholder="Gender" />
 				<Button Text = "Register" />
-				<Button Text = "Reset" />
+				<Button Text = "Reset" Clicked="OnReset" />
 			</StackLayout>
 		</ScrollView>
 	</ContentPage.Content>

@@ -15,19 +15,11 @@ namespace ClearanceTeeTimes.Mobile.Pages.InitialAuthentication
 			InitializeComponent();
 		}
 
-		void OnLogin(object sender, EventArgs e)
+		async void OnLogin(object sender, EventArgs e)
 		{
-			loginButton.Text = "Login!";
+			await Navigation.PushAsync(new Login());
 		}
 
-        /*void OnRegister(object sender, EventArgs e)
-		{
-			registerButton.Text = "Register!";
-//			Command = new Command (async () => 
-//				await Navigation.PushAsync (new UserRegisterInfo ()));
-			//Command = new Command (async () => 
-				//await Navigation.PushAsync (new UserRegisterInfo ()));
-		} */
         async void OnRegister(object sender, EventArgs e)
         {
             await Navigation.PushAsync(new UserRegisterInfo());

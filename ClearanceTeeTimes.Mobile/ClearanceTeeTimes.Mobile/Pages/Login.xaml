@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="ClearanceTeeTimes.Mobile.Login">
+	<ContentPage.Content>
+		<StackLayout VerticalOptions="StartAndExpand">
+				<Label Text="Email Address:" />
+				<Entry x:Name="emailEntryBox" Placeholder="Email" />
+				<Label Text="Password:" />
+				<Entry x:Name="passwordEntryBox" Placeholder="Password" />
+				<Button Text="Sign In" />
+		</StackLayout>
+	</ContentPage.Content>
+</ContentPage>
