@@ -1,12 +1,23 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="ClearanceTeeTimes.Mobile.Login">
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="ClearanceTeeTimes.Mobile.Login" BackgroundColor="#F2F2F2">
+  <ContentPage.Padding>
+    <OnPlatform x:TypeArguments="Thickness"
+                iOS="20, 40, 20, 20"
+                Android="20, 20, 20, 20"
+                WinPhone="20, 20, 20, 20" />
+  </ContentPage.Padding>
 	<ContentPage.Content>
 		<StackLayout VerticalOptions="StartAndExpand">
 				<Label Text="Email Address:" />
-				<Entry x:Name="emailEntryBox" Placeholder="Email" />
+				<Entry x:Name="emailEntryBox" />
+        
 				<Label Text="Password:" />
-				<Entry x:Name="passwordEntryBox" Placeholder="Password" />
-				<Button Text="Sign In" />
+				<Entry x:Name="passwordEntryBox"  />
+				<Button Text="Sign In" BackgroundColor="#051A26"/>
+      <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand">
+        <Button Text="Forgot Password" Clicked="OnForgotPassword" TextColor="#7B808C" BackgroundColor="#F2F2F2" />
+        <Button Text="Register" Clicked="OnRegister" TextColor="#7B808C" BackgroundColor="#F2F2F2" />
+      </StackLayout>
 		</StackLayout>
 	</ContentPage.Content>
 </ContentPage>
