@@ -7,6 +7,7 @@ C:\Users\Kyle\GolfNow\ClearanceTeeTimes.Mobile\ClearanceTeeTimes.Mobile\obj\Debu
 C:\Users\Kyle\GolfNow\ClearanceTeeTimes.Mobile\ClearanceTeeTimes.Mobile\obj\Debug\ClearanceTeeTimes.Mobile.Pages.RegisterInfo.UserRegisterInfo.xaml.g.cs
 C:\Users\Kyle\GolfNow\ClearanceTeeTimes.Mobile\ClearanceTeeTimes.Mobile\obj\Debug\ClearanceTeeTimes.Mobile.Pages.Timeline.UserTimeline.xaml.g.cs
 C:\Users\Kyle\GolfNow\ClearanceTeeTimes.Mobile\ClearanceTeeTimes.Mobile\obj\Debug\ClearanceTeeTimes.Mobile.Pages.Login.xaml.g.cs
+C:\Users\Kyle\GolfNow\ClearanceTeeTimes.Mobile\ClearanceTeeTimes.Mobile\obj\Debug\ClearanceTeeTimes.Mobile.csprojResolveAssemblyReference.cache
 C:\Users\Kyle\GolfNow\ClearanceTeeTimes.Mobile\ClearanceTeeTimes.Mobile\bin\Debug\ClearanceTeeTimes.Mobile.dll.config
 C:\Users\Kyle\GolfNow\ClearanceTeeTimes.Mobile\ClearanceTeeTimes.Mobile\bin\Debug\ClearanceTeeTimes.Mobile.dll
 C:\Users\Kyle\GolfNow\ClearanceTeeTimes.Mobile\ClearanceTeeTimes.Mobile\bin\Debug\ClearanceTeeTimes.Mobile.pdb
@@ -14,12 +15,14 @@ C:\Users\Kyle\GolfNow\ClearanceTeeTimes.Mobile\ClearanceTeeTimes.Mobile\bin\Debu
 C:\Users\Kyle\GolfNow\ClearanceTeeTimes.Mobile\ClearanceTeeTimes.Mobile\bin\Debug\bouncy_castle_hmac_sha_pcl.dll
 C:\Users\Kyle\GolfNow\ClearanceTeeTimes.Mobile\ClearanceTeeTimes.Mobile\bin\Debug\Fusillade.dll
 C:\Users\Kyle\GolfNow\ClearanceTeeTimes.Mobile\ClearanceTeeTimes.Mobile\bin\Debug\ModernHttpClient.dll
+C:\Users\Kyle\GolfNow\ClearanceTeeTimes.Mobile\ClearanceTeeTimes.Mobile\bin\Debug\Mono.Data.Sqlite.dll
 C:\Users\Kyle\GolfNow\ClearanceTeeTimes.Mobile\ClearanceTeeTimes.Mobile\bin\Debug\Newtonsoft.Json.dll
 C:\Users\Kyle\GolfNow\ClearanceTeeTimes.Mobile\ClearanceTeeTimes.Mobile\bin\Debug\OAMobileServices.Mobile.dll
 C:\Users\Kyle\GolfNow\ClearanceTeeTimes.Mobile\ClearanceTeeTimes.Mobile\bin\Debug\PCLCrypto.dll
 C:\Users\Kyle\GolfNow\ClearanceTeeTimes.Mobile\ClearanceTeeTimes.Mobile\bin\Debug\Punchclock.dll
 C:\Users\Kyle\GolfNow\ClearanceTeeTimes.Mobile\ClearanceTeeTimes.Mobile\bin\Debug\Refit.dll
 C:\Users\Kyle\GolfNow\ClearanceTeeTimes.Mobile\ClearanceTeeTimes.Mobile\bin\Debug\Splat.dll
+C:\Users\Kyle\GolfNow\ClearanceTeeTimes.Mobile\ClearanceTeeTimes.Mobile\bin\Debug\System.Data.dll
 C:\Users\Kyle\GolfNow\ClearanceTeeTimes.Mobile\ClearanceTeeTimes.Mobile\bin\Debug\System.Net.Http.dll
 C:\Users\Kyle\GolfNow\ClearanceTeeTimes.Mobile\ClearanceTeeTimes.Mobile\bin\Debug\System.Net.Http.Extensions.dll
 C:\Users\Kyle\GolfNow\ClearanceTeeTimes.Mobile\ClearanceTeeTimes.Mobile\bin\Debug\System.Net.Http.Primitives.dll
@@ -31,6 +34,12 @@ C:\Users\Kyle\GolfNow\ClearanceTeeTimes.Mobile\ClearanceTeeTimes.Mobile\bin\Debu
 C:\Users\Kyle\GolfNow\ClearanceTeeTimes.Mobile\ClearanceTeeTimes.Mobile\bin\Debug\Xamarin.Forms.Core.dll
 C:\Users\Kyle\GolfNow\ClearanceTeeTimes.Mobile\ClearanceTeeTimes.Mobile\bin\Debug\Xamarin.Forms.Platform.dll
 C:\Users\Kyle\GolfNow\ClearanceTeeTimes.Mobile\ClearanceTeeTimes.Mobile\bin\Debug\Xamarin.Forms.Xaml.dll
+C:\Users\Kyle\GolfNow\ClearanceTeeTimes.Mobile\ClearanceTeeTimes.Mobile\bin\Debug\System.Transactions.dll
+C:\Users\Kyle\GolfNow\ClearanceTeeTimes.Mobile\ClearanceTeeTimes.Mobile\bin\Debug\System.Numerics.dll
+C:\Users\Kyle\GolfNow\ClearanceTeeTimes.Mobile\ClearanceTeeTimes.Mobile\bin\Debug\System.Xml.dll
+C:\Users\Kyle\GolfNow\ClearanceTeeTimes.Mobile\ClearanceTeeTimes.Mobile\bin\Debug\Mono.Data.Tds.dll
+C:\Users\Kyle\GolfNow\ClearanceTeeTimes.Mobile\ClearanceTeeTimes.Mobile\bin\Debug\Mono.Dynamic.Interpreter.dll
+C:\Users\Kyle\GolfNow\ClearanceTeeTimes.Mobile\ClearanceTeeTimes.Mobile\bin\Debug\Mono.Security.dll
 C:\Users\Kyle\GolfNow\ClearanceTeeTimes.Mobile\ClearanceTeeTimes.Mobile\bin\Debug\Xamarin.Forms.Core.xml
 C:\Users\Kyle\GolfNow\ClearanceTeeTimes.Mobile\ClearanceTeeTimes.Mobile\bin\Debug\Xamarin.Forms.Xaml.xml
 C:\Users\Kyle\GolfNow\ClearanceTeeTimes.Mobile\ClearanceTeeTimes.Mobile\bin\Debug\Fusillade.pdb

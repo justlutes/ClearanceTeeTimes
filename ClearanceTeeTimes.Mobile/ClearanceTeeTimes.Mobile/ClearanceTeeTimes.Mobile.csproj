@@ -274,6 +274,12 @@
     <Reference Include="bouncy_castle_hmac_sha_pcl">
       <HintPath>..\..\packages\BouncyCastle-PCL.1.0.0.6\lib\bouncy_castle_hmac_sha_pcl.dll</HintPath>
     </Reference>
+    <Reference Include="Mono.Data.Sqlite">
+      <HintPath>..\..\..\..\..\Program Files %28x86%29\Reference Assemblies\Microsoft\Framework\MonoTouch\v1.0\Mono.Data.Sqlite.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data">
+      <HintPath>..\..\..\..\..\Program Files %28x86%29\Reference Assemblies\Microsoft\Framework\MonoTouch\v1.0\System.Data.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <None Include="GettingStarted.Xamarin" />

@@ -41,7 +41,7 @@ namespace ClearanceTeeTimes.Mobile {
         private global::Xamarin.Forms.Entry address2;
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
-        private global::Xamarin.Forms.Entry country;
+        private global::Xamarin.Forms.Picker country;
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private global::Xamarin.Forms.Entry zipEntryBox;
@@ -56,7 +56,7 @@ namespace ClearanceTeeTimes.Mobile {
         private global::Xamarin.Forms.DatePicker birthDate;
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
-        private global::Xamarin.Forms.Entry genderEntryBox;
+        private global::Xamarin.Forms.Picker genderEntryBox;
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {
@@ -69,12 +69,12 @@ namespace ClearanceTeeTimes.Mobile {
             confirmPassword = this.FindByName<global::Xamarin.Forms.Entry>("confirmPassword");
             address1 = this.FindByName<global::Xamarin.Forms.Entry>("address1");
             address2 = this.FindByName<global::Xamarin.Forms.Entry>("address2");
-            country = this.FindByName<global::Xamarin.Forms.Entry>("country");
+            country = this.FindByName<global::Xamarin.Forms.Picker>("country");
             zipEntryBox = this.FindByName<global::Xamarin.Forms.Entry>("zipEntryBox");
             cityEntryBox = this.FindByName<global::Xamarin.Forms.Entry>("cityEntryBox");
             stateEntryBox = this.FindByName<global::Xamarin.Forms.Entry>("stateEntryBox");
             birthDate = this.FindByName<global::Xamarin.Forms.DatePicker>("birthDate");
-            genderEntryBox = this.FindByName<global::Xamarin.Forms.Entry>("genderEntryBox");
+            genderEntryBox = this.FindByName<global::Xamarin.Forms.Picker>("genderEntryBox");
         }
     }
 }

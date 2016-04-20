@@ -1,30 +1,15 @@
-﻿<Properties StartupItem="ClearanceTeeTimes.Mobile/ClearanceTeeTimes.Mobile.Droid/ClearanceTeeTimes.Mobile.Droid.csproj" RefactoringSettings.EnableRefactorings="True">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.Nexus 10 (KitKat)" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="ClearanceTeeTimes.Mobile/ClearanceTeeTimes.Mobile/GolfNow.Api/Utilities/Authorization.cs">
+﻿<Properties StartupItem="ClearanceTeeTimes.Mobile\ClearanceTeeTimes.Mobile.Droid\ClearanceTeeTimes.Mobile.Droid.csproj" RefactoringSettings.EnableRefactorings="True">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.Nexus 5 (KitKat)" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="ClearanceTeeTimes.Mobile\ClearanceTeeTimes.Mobile\Pages\RegisterInfo\UserRegisterInfo.xaml.cs">
     <Files>
-      <File FileName="ClearanceTeeTimes.Mobile/ClearanceTeeTimes.Mobile/GolfNow.Mobile.Models/DataContracts/Purchase.cs" Line="7" Column="25" />
-      <File FileName="ClearanceTeeTimes.Mobile/ClearanceTeeTimes.Mobile/GolfNow.Mobile.Models/DataContracts/CouponInfo.cs" Line="36" Column="43" />
-      <File FileName="ClearanceTeeTimes.Mobile/GolfNow.Mobile.Models/DataContracts/AccountCredit.cs" Line="7" Column="28" />
-      <File FileName="ClearanceTeeTimes.Mobile/ClearanceTeeTimes.Mobile/GolfNow.Api/Utilities/Authorization.cs" Line="18" Column="50" />
+      <File FileName="ClearanceTeeTimes.Mobile\ClearanceTeeTimes.Mobile\Pages\Login.xaml" Line="13" Column="1" />
+      <File FileName="ClearanceTeeTimes.Mobile\ClearanceTeeTimes.Mobile\Pages\Login.xaml.cs" Line="1" Column="1" />
+      <File FileName="ClearanceTeeTimes.Mobile\ClearanceTeeTimes.Mobile\Pages\RegisterInfo\UserRegisterInfo.xaml" Line="20" Column="51" />
+      <File FileName="ClearanceTeeTimes.Mobile\ClearanceTeeTimes.Mobile\Pages\RegisterInfo\UserRegisterInfo.xaml.cs" Line="59" Column="43" />
     </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="ClearanceTeeTimes.Mobile" expanded="True">
-            <Node name="ClearanceTeeTimes.Mobile" expanded="True" selected="True">
-              <Node name="GolfNow.Api" expanded="True">
-                <Node name="Utilities" expanded="True" />
-              </Node>
-            </Node>
-          </Node>
-        </State>
-      </Pad>
-    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint traceExpression="{global::Xamarin.Forms}" file="C:\Users\Kyle\GolfNow\ClearanceTeeTimes.Mobile\ClearanceTeeTimes.Mobile\obj\Debug\ClearanceTeeTimes.Mobile.Pages.InitialAuthentication.WelcomePage.xaml.g.cs" line="29" column="1" />
-    </BreakpointStore>
+    <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches>
     <Watch file="ClearanceTeeTimes.Mobile\ClearanceTeeTimes.Mobile\obj\Debug\ClearanceTeeTimes.Mobile.Pages.InitialAuthentication.WelcomePage.xaml.g.cs" line="29" offsetX="711" offsetY="448" expression="global::Xamarin.Forms" liveUpdate="True" />
