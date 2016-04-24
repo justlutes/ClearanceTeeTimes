@@ -20,7 +20,7 @@ namespace ClearanceTeeTimes.Mobile
 
         async void OnForgotPassword(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new ForgotPassword());
+			await Navigation.PushAsync (new ForgotPassword ());
         }
     }
 }
