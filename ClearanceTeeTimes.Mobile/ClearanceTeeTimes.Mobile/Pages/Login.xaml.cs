@@ -1,9 +1,10 @@
 ﻿using ClearanceTeeTimes.Mobile.Pages.InitialAuthentication;
 using System;
 using System.Collections.Generic;
-using Plugin.Geolocator;
+
 
 using Xamarin.Forms;
+using ClearanceTeeTimes.Mobile.Pages.Timeline;
 
 namespace ClearanceTeeTimes.Mobile
 {
@@ -16,16 +17,8 @@ namespace ClearanceTeeTimes.Mobile
 
         async void OnSignin(object sender, EventArgs e)
         {
-            // Geo-location 
-            var locator = CrossGeolocator.Current;
-            locator.DesiredAccuracy = 50;
-
-            var position = await locator.GetPositionAsync(10000);
-
-
-            System.Diagnostics.Debug.WriteLine("Position Status: {0}", position.Timestamp);
-            System.Diagnostics.Debug.WriteLine("Position Latitude: {0}", position.Latitude);
-            System.Diagnostics.Debug.WriteLine("Position Longitude: {0}", position.Longitude);
+            await Navigation.PushAsync(new SearchTeeTimes());
+            
         }
 
         async void OnRegister(object sender, EventArgs e)

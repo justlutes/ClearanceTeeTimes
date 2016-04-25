@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ClearanceTeeTimes.Mobile.Pages.Timeline.SearchTeeTimes" 
+             xmlns:sys="clr-namespace:System;assembly=mscorlib"  Title="Search" BackgroundColor="#051A26">
+  <ContentPage.Padding>
+    <OnPlatform x:TypeArguments="Thickness"
+                iOS="20, 40, 20, 20"
+                Android="20, 20, 20, 20"
+                WinPhone="20, 20, 20, 20" />
+  </ContentPage.Padding>
+  <ContentPage.Content>
+    <StackLayout VerticalOptions="StartAndExpand">
+      <Label Text="Distance"  />
+      <Picker x:Name="DistancePicker" >
+        <Picker.Items>
+          <x:String>10 miles</x:String>
+          <x:String>20 miles</x:String>
+          <x:String>30 miles</x:String>
+          <x:String>40 miles</x:String>
+          <x:String>50 miles</x:String>
+        </Picker.Items>
+      </Picker>
+
+      <StackLayout>
+        <Label Text="Golfers" />
+        <Picker x:Name="GolfPicker" >
+          <Picker.Items>
+            <x:String>1</x:String>
+            <x:String>2</x:String>
+            <x:String>3</x:String>
+            <x:String>4</x:String>
+            <x:String>5</x:String>
+          </Picker.Items>
+        </Picker>
+      </StackLayout>
+      <StackLayout>
+        <Label Text="Date" />
+        <DatePicker x:Name="TeeDatePicker" Date="{x:Static sys:DateTime.Now}">
+          <DatePicker.Format>yyyy-MM-dd</DatePicker.Format>
+        </DatePicker>
+      </StackLayout>
+      
+      <Button Text="Search" Clicked="OnSearch" TextColor="#051A26" BackgroundColor="#F2F2F2"/>
+    </StackLayout>
+  </ContentPage.Content>
+</ContentPage>
