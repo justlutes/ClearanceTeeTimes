@@ -13,7 +13,7 @@
         
 				<Label Text="Password:" />
 				<Entry x:Name="passwordEntryBox"  />
-				<Button Text="Sign In" TextColor="#051A26" BackgroundColor="#F2F2F2"/>
+				<Button Text="Sign In" Clicked="OnSignin" TextColor="#051A26" BackgroundColor="#F2F2F2"/>
       <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand">
         <Button Text="Forgot Password" Clicked="OnForgotPassword" TextColor="#7B808C" BackgroundColor="#051A26" />
         <Button Text="Register" Clicked="OnRegister" TextColor="#7B808C" BackgroundColor="#051A26" />
