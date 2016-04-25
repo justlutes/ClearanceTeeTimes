@@ -37,7 +37,7 @@
       <StackLayout>
         <Label Text="Date" />
         <DatePicker x:Name="TeeDatePicker" Date="{x:Static sys:DateTime.Now}">
-          <DatePicker.Format>yyyy-MM-dd</DatePicker.Format>
+          <DatePicker.Format>yyyy-dd-MM</DatePicker.Format>
         </DatePicker>
       </StackLayout>
       
