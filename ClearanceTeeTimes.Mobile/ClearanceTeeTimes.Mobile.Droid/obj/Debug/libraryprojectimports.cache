@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Paths>
+  <Jars></Jars>
+  <ResolvedResourceDirectories>
+    <ResolvedResourceDirectory>A:\Projects\GolfNow\clearanceteetimes\ClearanceTeeTimes.Mobile\ClearanceTeeTimes.Mobile.Droid\obj\Debug\__library_projects__\Bolts.AppLinks\library_project_imports\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>A:\Projects\GolfNow\clearanceteetimes\ClearanceTeeTimes.Mobile\ClearanceTeeTimes.Mobile.Droid\obj\Debug\__library_projects__\Plugin.CurrentActivity\library_project_imports\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>A:\Projects\GolfNow\clearanceteetimes\ClearanceTeeTimes.Mobile\ClearanceTeeTimes.Mobile.Droid\obj\Debug\__library_projects__\Plugin.Geolocator\library_project_imports\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>A:\Projects\GolfNow\clearanceteetimes\ClearanceTeeTimes.Mobile\ClearanceTeeTimes.Mobile.Droid\obj\Debug\__library_projects__\Plugin.Permissions\library_project_imports\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>A:\Projects\GolfNow\clearanceteetimes\ClearanceTeeTimes.Mobile\ClearanceTeeTimes.Mobile.Droid\obj\Debug\__library_projects__\Xamarin.Forms.Platform.Android\library_project_imports\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>A:\Projects\GolfNow\clearanceteetimes\ClearanceTeeTimes.Mobile\ClearanceTeeTimes.Mobile.Droid\obj\Debug\__library_projects__\Xamarin.Forms.Platform\library_project_imports\res</ResolvedResourceDirectory>
+  </ResolvedResourceDirectories>
+  <ResolvedAssetDirectories>
+    <ResolvedAssetDirectory>A:\Projects\GolfNow\clearanceteetimes\ClearanceTeeTimes.Mobile\ClearanceTeeTimes.Mobile.Droid\obj\Debug\__library_projects__\Bolts.AppLinks\library_project_imports\assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>A:\Projects\GolfNow\clearanceteetimes\ClearanceTeeTimes.Mobile\ClearanceTeeTimes.Mobile.Droid\obj\Debug\__library_projects__\Plugin.CurrentActivity\library_project_imports\assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>A:\Projects\GolfNow\clearanceteetimes\ClearanceTeeTimes.Mobile\ClearanceTeeTimes.Mobile.Droid\obj\Debug\__library_projects__\Plugin.Geolocator\library_project_imports\assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>A:\Projects\GolfNow\clearanceteetimes\ClearanceTeeTimes.Mobile\ClearanceTeeTimes.Mobile.Droid\obj\Debug\__library_projects__\Plugin.Permissions\library_project_imports\assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>A:\Projects\GolfNow\clearanceteetimes\ClearanceTeeTimes.Mobile\ClearanceTeeTimes.Mobile.Droid\obj\Debug\__library_projects__\Xamarin.Forms.Platform.Android\library_project_imports\assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>A:\Projects\GolfNow\clearanceteetimes\ClearanceTeeTimes.Mobile\ClearanceTeeTimes.Mobile.Droid\obj\Debug\__library_projects__\Xamarin.Forms.Platform\library_project_imports\assets</ResolvedAssetDirectory>
+  </ResolvedAssetDirectories>
+  <ResolvedEnvironmentFiles />
+  <ResolvedResourceDirectoryStamps>
+    <ResolvedResourceDirectoryStamp>A:\Projects\GolfNow\clearanceteetimes\ClearanceTeeTimes.Mobile\ClearanceTeeTimes.Mobile.Droid\obj\Debug\__library_projects__\Bolts.AppLinks.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>A:\Projects\GolfNow\clearanceteetimes\ClearanceTeeTimes.Mobile\ClearanceTeeTimes.Mobile.Droid\obj\Debug\__library_projects__\Plugin.CurrentActivity.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>A:\Projects\GolfNow\clearanceteetimes\ClearanceTeeTimes.Mobile\ClearanceTeeTimes.Mobile.Droid\obj\Debug\__library_projects__\Plugin.Geolocator.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>A:\Projects\GolfNow\clearanceteetimes\ClearanceTeeTimes.Mobile\ClearanceTeeTimes.Mobile.Droid\obj\Debug\__library_projects__\Plugin.Permissions.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>A:\Projects\GolfNow\clearanceteetimes\ClearanceTeeTimes.Mobile\ClearanceTeeTimes.Mobile.Droid\obj\Debug\__library_projects__\Xamarin.Forms.Platform.Android.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>A:\Projects\GolfNow\clearanceteetimes\ClearanceTeeTimes.Mobile\ClearanceTeeTimes.Mobile.Droid\obj\Debug\__library_projects__\Xamarin.Forms.Platform.stamp</ResolvedResourceDirectoryStamp>
+  </ResolvedResourceDirectoryStamps>
+</Paths>

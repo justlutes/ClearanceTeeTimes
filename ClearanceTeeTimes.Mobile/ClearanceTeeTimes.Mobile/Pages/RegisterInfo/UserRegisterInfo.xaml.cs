@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 using Xamarin.Forms;
 using System.Text.RegularExpressions;
-using System.Data.SqlClient;
+
 
 namespace ClearanceTeeTimes.Mobile
 {
