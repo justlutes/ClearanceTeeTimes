@@ -42,9 +42,6 @@
     <Compile Include="Pages\InitialAuthentication\WelcomePage.xaml.cs">
       <DependentUpon>WelcomePage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Pages\Timeline\SearchTeeTimes.xaml.cs">
-      <DependentUpon>SearchTeeTimes.xaml</DependentUpon>
-    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ViewModels\AuthenticationViewModel.cs" />
     <Compile Include="Pages\RegisterInfo\UserRegisterInfo.xaml.cs">
@@ -211,9 +208,6 @@
     <Compile Include="Pages\InitialAuthentication\ForgotPassword.xaml.cs">
       <DependentUpon>ForgotPassword.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Pages\Timeline\SearchTeeTimes.xaml.cs">
-      <DependentUpon>SearchTeeTimes.xaml</DependentUpon>
-    </Compile>
     <Compile Include="Pages\CourseSearch.xaml.cs">
       <DependentUpon>CourseSearch.xaml</DependentUpon>
     </Compile>
@@ -358,9 +352,6 @@
     <EmbeddedResource Include="Pages\InitialAuthentication\ForgotPassword.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Include="Pages\Timeline\SearchTeeTimes.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
     <EmbeddedResource Include="Pages\CourseSearch.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
@@ -385,11 +376,5 @@
   <ItemGroup>
     <Folder Include="GolfNow.Api\Properties\" />
     <Folder Include="GolfNow.Mobile.Models\Properties\" />
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="Pages\Timeline\SearchTeeTimes.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-      <SubType>Designer</SubType>
-    </EmbeddedResource>
   </ItemGroup>
 </Project>

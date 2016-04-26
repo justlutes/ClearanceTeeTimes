@@ -9,13 +9,6 @@
 			<Label Text="City" />
 			<Entry x:Name="cityEntry" />
 			<Button Text="Search" Clicked="OnSearch" />
-			<ListView x:Name="CourseName">
-				<ListView.ItemTemplate>
-					<DataTemplate>
-						<TextCell Text="{Binding Name}" />
-					</DataTemplate>
-				</ListView.ItemTemplate>
-			</ListView>
 		</StackLayout>
 	</ContentPage.Content>
 </ContentPage>
