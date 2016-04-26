@@ -17,7 +17,7 @@ namespace ClearanceTeeTimes.Mobile
 
         async void OnSignin(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new SearchTeeTimes());
+            await Navigation.PushAsync(new CourseSearch());
             
         }
 

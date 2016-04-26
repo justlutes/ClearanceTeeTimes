@@ -12,15 +12,14 @@ namespace ClearanceTeeTimes.Mobile
 			InitializeComponent ();
 		}
 
-		static string selectUserCourses = "";
 
-//		public List<string> GetUserCourses(string selectCourses)
-//		{
-//			List<string> userCourses = "";
-//		
-//			return userCourses;
-//		}
-
+		public string GetUserCourses(string selectCourses)
+		{
+			string userCourses = "https://2-1-17-sandbox.api.gnsvc.com/rest/channel/5151/facilities?q=country-city-state&country-code=US&state-province-code=FL&city=Orlando";
+		
+			return userCourses;
+		}
 	}
 }
+
 

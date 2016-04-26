@@ -1,11 +1,9 @@
 ﻿<Properties StartupItem="ClearanceTeeTimes.Mobile\ClearanceTeeTimes.Mobile.Droid\ClearanceTeeTimes.Mobile.Droid.csproj" RefactoringSettings.EnableRefactorings="True">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.Nexus 5 (KitKat)" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="ClearanceTeeTimes.Mobile\ClearanceTeeTimes.Mobile\Pages\RegisterInfo\UserRegisterInfo.xaml.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ClearanceTeeTimes.Mobile\ClearanceTeeTimes.Mobile\Pages\CourseSearch.xaml.cs">
     <Files>
-      <File FileName="ClearanceTeeTimes.Mobile\ClearanceTeeTimes.Mobile\Pages\Login.xaml" Line="13" Column="1" />
-      <File FileName="ClearanceTeeTimes.Mobile\ClearanceTeeTimes.Mobile\Pages\Login.xaml.cs" Line="1" Column="1" />
-      <File FileName="ClearanceTeeTimes.Mobile\ClearanceTeeTimes.Mobile\Pages\RegisterInfo\UserRegisterInfo.xaml" Line="20" Column="51" />
-      <File FileName="ClearanceTeeTimes.Mobile\ClearanceTeeTimes.Mobile\Pages\RegisterInfo\UserRegisterInfo.xaml.cs" Line="59" Column="43" />
+      <File FileName="ClearanceTeeTimes.Mobile\ClearanceTeeTimes.Mobile\Pages\CourseSearch.xaml.cs" Line="35" Column="4" />
+      <File FileName="ClearanceTeeTimes.Mobile\ClearanceTeeTimes.Mobile\Pages\CourseSearch.xaml" Line="21" Column="15" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
