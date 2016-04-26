@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 
 using Xamarin.Forms;
-using ClearanceTeeTimes.Mobile.Pages.Timeline;
+using ClearanceTeeTimes.Mobile.Pages;
 
 namespace ClearanceTeeTimes.Mobile
 {
